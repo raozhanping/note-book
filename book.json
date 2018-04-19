@@ -30,7 +30,7 @@
     "pageNumbers": false,
     "paperSize": "a4"
   },
-  "plugins": ["disqus", "expandable-chapters-interactive"],
+  "plugins": ["disqus", "expandable-chapters-interactive", "search-plus"],
   "pluginsConfig": {
     "disqus": {
       "shortName": "raozhanping-note"

@@ -1,0 +1,985 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>chai.js 断言库 · Notes GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="raozhanping">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-interactive/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Node-global.html" />
+    
+    
+    <link rel="prev" href="Node-assert.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="/" target="_blank" class="custom-link">Custom link name</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" >
+            
+                <span>
+            
+                    
+                    NOTES
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Introduction</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" >
+            
+                <span>
+            
+                    
+                    CSS Lib
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="cssModules.html">
+            
+                <a href="cssModules.html">
+            
+                    
+                    CSS Modules
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1.1" data-path="cssModules-README.html">
+            
+                <a href="cssModules-README.html">
+            
+                    
+                    CSS Modules
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.2" data-path="cssModules-usage.html">
+            
+                <a href="cssModules-usage.html">
+            
+                    
+                    CSS Modules Usage
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="stylus.html">
+            
+                <a href="stylus.html">
+            
+                    
+                    Stylus
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.2.1" data-path="Stylus-try.html">
+            
+                <a href="Stylus-try.html">
+            
+                    
+                    Try Stylus
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="Docker.html">
+            
+                <a href="Docker.html">
+            
+                    
+                    Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="Graphql.html">
+            
+                <a href="Graphql.html">
+            
+                    
+                    GraphQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="Inotify.html">
+            
+                <a href="Inotify.html">
+            
+                    
+                    Inotify
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="JavaScript.html">
+            
+                <a href="JavaScript.html">
+            
+                    
+                    JavaScript
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.6.1" data-path="JavaScript-designMode.html">
+            
+                <a href="JavaScript-designMode.html">
+            
+                    
+                    设计模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="Nginx.html">
+            
+                <a href="Nginx.html">
+            
+                    
+                    Nginx
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.7.1" data-path="NginxInstall.html">
+            
+                <a href="NginxInstall.html">
+            
+                    
+                    Nginx原理、安装预配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="Node.html">
+            
+                <a href="Node.html">
+            
+                    
+                    NodeJS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.8.1" data-path="Node-assert.html">
+            
+                <a href="Node-assert.html">
+            
+                    
+                    Assert 断言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.8.2" data-path="Chai.html">
+            
+                <a href="Chai.html">
+            
+                    
+                    chai.js 断言库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.3" data-path="Node-global.html">
+            
+                <a href="Node-global.html">
+            
+                    
+                    Node Global Obj And Var
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.4" data-path="CLI.node.html">
+            
+                <a href="CLI.node.html">
+            
+                    
+                    CLI Writed By Nodejs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.5" data-path="framework.html">
+            
+                <a href="framework.html">
+            
+                    
+                    Framework
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.8.5.1" data-path="framework-Hapi.html">
+            
+                <a href="framework-Hapi.html">
+            
+                    
+                    Hapi Js Framework
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.6" data-path="Electrode.html">
+            
+                <a href="Electrode.html">
+            
+                    
+                    Electrode
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.8.6.1" data-path="Electrode-platform.html">
+            
+                <a href="Electrode-platform.html">
+            
+                    
+                    Electrode Platform
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.6.2" data-path="Electrode-question.html">
+            
+                <a href="Electrode-question.html">
+            
+                    
+                    Electrode Question
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.7" data-path="redux.html">
+            
+                <a href="redux.html">
+            
+                    
+                    Redux
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.8.7.1" data-path="Redux-basic.html">
+            
+                <a href="Redux-basic.html">
+            
+                    
+                    Redux Basic Usage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.7.2" data-path="Redux-middleware.html">
+            
+                <a href="Redux-middleware.html">
+            
+                    
+                    Middleware And Asynchronous
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.7.3" data-path="React-Redux.html">
+            
+                <a href="React-Redux.html">
+            
+                    
+                    React-Redux 的用法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.8" data-path="npm.html">
+            
+                <a href="npm.html">
+            
+                    
+                    NPM Package
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.8.8.1" data-path="npm-semver.html">
+            
+                <a href="npm-semver.html">
+            
+                    
+                    semver
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="Process.html">
+            
+                <a href="Process.html">
+            
+                    
+                    Process
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.9.1" data-path="Node-sync.html">
+            
+                <a href="Node-sync.html">
+            
+                    
+                    阻塞与非阻塞
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9.2" data-path="Node-process.html">
+            
+                <a href="Node-process.html">
+            
+                    
+                    进程与线程优性能
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="ServiceWorker-start.html">
+            
+                <a href="ServiceWorker-start.html">
+            
+                    
+                    ServiceWorker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.11" >
+            
+                <span>
+            
+                    
+                    Template
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.11.1" data-path="nunjucks.html">
+            
+                <a href="nunjucks.html">
+            
+                    
+                    Nunjucks
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.12" data-path="Vim.html">
+            
+                <a href="Vim.html">
+            
+                    
+                    Vim Command Collection
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.13" data-path="WebSocket.html">
+            
+                <a href="WebSocket.html">
+            
+                    
+                    WebSocket
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.14" >
+            
+                <span>
+            
+                    
+                    协议
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.14.1" data-path="TCP&IP.html">
+            
+                <a href="TCP&IP.html">
+            
+                    
+                    TCP/IP 协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.14.2" data-path="Http.html">
+            
+                <a href="Http.html">
+            
+                    
+                    HTTP 协议
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.14.2.1" data-path="Http-base.html">
+            
+                <a href="Http-base.html">
+            
+                    
+                    基础概念篇
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.14.2.2" data-path="Http-detail.html">
+            
+                <a href="Http-detail.html">
+            
+                    
+                    协议详解篇
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.15" data-path="architectural.html">
+            
+                <a href="architectural.html">
+            
+                    
+                    架构设计经验分享
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >chai.js 断言库</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="chaijs-&#x65AD;&#x8A00;&#x5E93;">chai.js &#x65AD;&#x8A00;&#x5E93;</h2>
+<blockquote>
+<p>BDD&#x98CE;&#x683C;&#x7684;expect/should API&#xFF0C;<br>TDD &#x98CE;&#x683C;&#x7684;Assert API</p>
+</blockquote>
+<h3 id="bdd">BDD</h3>
+<p>expect &#x548C; should &#x662F; BDD &#x98CE;&#x683C;&#x7684;&#xFF0C;&#x4E8C;&#x8005;&#x4F7F;&#x7528;&#x76F8;&#x540C;&#x7684;&#x94FE;&#x5F0F;&#x8BED;&#x8A00;&#x6765;&#x7EC4;&#x7EC7;&#x65AD;&#x8A00;&#xFF0C;&#x4F46;&#x4E0D;&#x540C;&#x4E8E;&#x4ED6;&#x4EEC;&#x521D;&#x59CB;&#x5316;&#x65AD;&#x8A00;&#x7684;&#x65B9;&#x5F0F;&#xFF1A;expect &#x4F7F;&#x7528;&#x6784;&#x9020;&#x51FD;&#x6570;&#x6765;&#x521B;&#x5EFA;&#x65AD;&#x8A00;&#x5BF9;&#x8C61;&#x5B9E;&#x4F8B;&#xFF0C;&#x800C;should&#x901A;&#x8FC7;&#x4E3A;Object.protorype&#x65B0;&#x589E;&#x65B9;&#x6CD5;&#x6765;&#x5B9E;&#x73B0;&#x65AD;&#x8A00;&#xFF08;&#x6240;&#x4EE5;should &#x4E0D;&#x652F;&#x6301; IE&#xFF09;&#xFF1B;expect &#x76F4;&#x63A5;&#x6307;&#x5411; chai.expect ,&#x800C; should &#x5219;&#x662F;chai.should().  </p>
+<h3 id="&#x8BED;&#x8A00;&#x94FE;">&#x8BED;&#x8A00;&#x94FE;</h3>
+<ul>
+<li>to</li>
+<li>be</li>
+<li>been</li>
+<li>is</li>
+<li>that</li>
+<li>which</li>
+<li>and</li>
+<li>has</li>
+<li>have</li>
+<li>with</li>
+<li>at</li>
+<li>of</li>
+<li>same</li>
+</ul>
+<h3 id="not">.not</h3>
+<p>&#x5BF9;&#x4E4B;&#x540E;&#x7684;&#x65AD;&#x8A00;&#x53D6;&#x53CD;  </p>
+<pre><code class="lang-js">expect(foo).to.not.equal(<span class="hljs-string">&apos;bar&apos;</span>);
+expect(goodFn).to.not.throw(<span class="hljs-built_in">Error</span>);
+expect({ foo: <span class="hljs-string">&apos;baz&apos;</span> }).to.have.property(<span class="hljs-string">&apos;foo&apos;</span>).and.not.equal(<span class="hljs-string">&apos;bar&apos;</span>);
+</code></pre>
+<h3 id="deep">.deep</h3>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Node-assert.html" class="navigation navigation-prev " aria-label="Previous page: Assert 断言">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Node-global.html" class="navigation navigation-next " aria-label="Next page: Node Global Obj And Var">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"chai.js 断言库","level":"2.8.2","depth":2,"next":{"title":"Node Global Obj And Var","level":"2.8.3","depth":2,"path":"docs/Node-global.md","ref":"./docs/Node-global.md","articles":[]},"previous":{"title":"Assert 断言","level":"2.8.1","depth":2,"path":"docs/Node-assert.md","ref":"./docs/Node-assert.md","articles":[]},"dir":"ltr"},"config":{"plugins":["disqus","expandable-chapters-interactive","search-plus","livereload"],"root":"./","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"raozhanping-note"},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"expandable-chapters-interactive":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"search-plus":{}},"theme":"default","author":"raozhanping","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Notes GitBook","links":{"sidebar":{"Custom link name":"/"},"sharing":{"all":null,"facebook":null,"google":null,"twitter":null,"weibo":null}},"gitbook":"*","description":"This is a note book created by gitbook","extension":null},"file":{"path":"docs/Chai.md","mtime":"2018-03-14T02:18:44.221Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-19T06:20:26.740Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-interactive/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
