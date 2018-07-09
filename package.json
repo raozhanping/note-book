@@ -9,10 +9,14 @@
   "scripts": {
     "init": "gitbook init",
     "start": "gitbook serve --port=4001 --lrport=4002",
+    "serve": "serve -s ./_book",
     "install": "gitbook install",
     "build": "gitbook build"
   },
   "dependencies": {
     "gitbook-cli": "^2.3.2"
+  },
+  "devDependencies": {
+    "serve": "^9.1.0"
   }
 }

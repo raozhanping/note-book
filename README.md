@@ -23,5 +23,4 @@
   cat /etc/group
 
 ### TODO:
-1. async await 是否阻塞問題?
-2. 
+1. javascript => 设计模式
