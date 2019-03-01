@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](./README.md)
+* [Introduction](./README.md)
 * CSS Lib
     * [CSS Modules](./docs/cssModules.md)
         * [CSS Modules](./docs/cssModules-README.md)
@@ -14,6 +15,8 @@
 * [JavaScript](./docs/JavaScript.md)
     * [设计模式](./docs/JavaScript-design-mode.md)
     * [Codeless Tracking](./docs/JavaScript-codeless-tracking.md)
+* [Linux](./docs/linux.md)
+    * [Vim Command Collection](./docs/linux-vim.md)
 * [Nginx](./docs/Nginx.md)
     * [Nginx原理、安装预配置](./docs/Nginx-install.md)
 * [NodeJS](./docs/Node.md)
@@ -38,7 +41,6 @@
 * [ServiceWorker](./docs/ServiceWorker-start.md)
 * Template
     * [Nunjucks](./docs/Template-nunjucks.md)
-* [Vim Command Collection](./docs/Vim.md)
 * [WebSocket](./docs/WebSocket.md)
 * 协议
     * [TCP/IP 协议](./docs/TCP&IP.md)
