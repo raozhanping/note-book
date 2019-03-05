@@ -1,9 +1,12 @@
 # 个人知识补充
 
+- [ git commit format ](#git-commit-format)
+
 ## TODO:
 - [ x ] javascript => 设计模式
 - [ x ] script template 在不在render tree上
 - [ x ] animated css 对 dom 的性能优化
+- [ x ] CSS3
 
 ## git commit format
 ```javascript

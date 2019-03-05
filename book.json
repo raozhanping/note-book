@@ -5,9 +5,6 @@
   "extension": null,
   "generator": "site",
   "links": {
-    "sidebar": {
-      "ZHANPING": "/"
-    },
     "sharing": {
         "all": null,
         "facebook": null,
@@ -17,6 +14,13 @@
     }
   },
   "output": null,
+  "styles": {
+    "website": "styles/website.css",
+    "ebook": "styles/ebook.css",
+    "pdf": "styles/pdf.css",
+    "mobi": "styles/mobi.css",
+    "epub": "styles/epub.css"
+  },
   "pdf": {
     "fontSize": 12,
     "footerTemplate": null,
@@ -30,12 +34,34 @@
     "pageNumbers": false,
     "paperSize": "a4"
   },
-  "plugins": ["disqus", "expandable-chapters-interactive", "search-plus"],
+  "plugins": [
+    "prism",
+    "sharing",
+    "search",
+    "-disqus",
+    "advanced-emoji",
+    "github",
+    "katex",
+    "splitter",
+    "-sharing",
+    "-tbfed-pagefooter",
+    "toggle-chapters",
+    "-sectionx",
+    "-baidu"
+  ],
   "pluginsConfig": {
+    "fontSettings": {
+    },
     "disqus": {
       "shortName": "raozhanping-note"
+    },
+    "theme-default": {
+      "showLevel": false
+    },
+    "github": {
+      "url": "https://github.com/zhanpingrao"
     }
   },
-  "title": "zhanping note book",
+  "title": "",
   "variables": {}
 }
