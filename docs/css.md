@@ -21,3 +21,14 @@
     }
 }
 ```
+
+## CSS基础布局--BFC
+> BFC,全称 Block Formatting Context，翻译成块级格式化上下文，它就是一个环境，HTML元素在这个环境中按照一定规则进行布局
+
+### BFC的生成
+1. 浮动元素、
+2. 绝对定位元素，
+3. 块级元素以及块级容器(比如inline-block、table-cell、table-capation)
+4. overflow值不为visible的块级盒子
+root元素会自动生成一个BFC
+
