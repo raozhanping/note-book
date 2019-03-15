@@ -14,6 +14,7 @@
 - [ x ] animated css 对 dom 的性能优化
 - [ x ] CSS3
 - [ x ] css animate
+- [ x ] conventional-changelog(npm)
 
 ## git commit format
 ```javascript
