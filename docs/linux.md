@@ -20,3 +20,27 @@
 6. 查看所有用户和用户组：
     cat /etc/passwd
     cat /etc/group
+
+## ubuntu 设置当前用户sudo免密码
+1. 备份 /etc/sudoers
+
+```bash
+    sudo cp /etc/sudoers .
+```
+
+2. 打开 /etc/sudoers
+
+```bash
+sudo visudo
+```
+
+3. 在文件末尾加入
+```bash
+linuxidc ALL=NOPASSWD:ALL
+```
+
+
+## ubutun默认root密码修改
+```bash
+    sudo passwd
+```
