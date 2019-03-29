@@ -10,7 +10,7 @@ sudo git clone https://github.com/cytle/wechat_web_devtools.git
 ```
 
 ## nvm 安装
-```s
+```bash
 # 1 ubuntu
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.4/install.sh | bash
 
