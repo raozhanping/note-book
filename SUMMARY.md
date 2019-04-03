@@ -13,6 +13,7 @@
 * [ JavaScript ](./docs/js.md)
     * [ Codeless Tracking ](./docs/js-codeless-tracking.md)
     * [ React ](./docs/js-react.md)
+    * [ Vue ](./docs/js-vue.md)
     * [ ServiceWorker ](./docs/js-sw-start.md)
     * [ WebSocket ](./docs/js-ws.md)
 * [ Template ](./docs/template.md)
