@@ -1,11 +1,13 @@
 # 个人知识补充
 
-- [ demo ](#demo)
-- [ git commit format ](#git-commit-format)
-- [ getBoundingClientRect ](#getboundingclientrect)
-- [ dispatchEvent ](#dispatchevent)
-- [ JS滚轮事件(mousewheel/DOMMouseScroll) ](#js滚轮事件mousewheeldommousescroll))
-    - [ 兼容差异 ](#兼容差异)
+- [个人知识补充](#%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E8%A1%A5%E5%85%85)
+  - [TODO:](#todo)
+  - [git commit format](#git-commit-format)
+  - [getBoundingClientRect](#getboundingclientrect)
+  - [dispatchEvent](#dispatchevent)
+  - [JS滚轮事件(mousewheel/DOMMouseScroll)](#js%E6%BB%9A%E8%BD%AE%E4%BA%8B%E4%BB%B6mousewheeldommousescroll)
+    - [兼容差异](#%E5%85%BC%E5%AE%B9%E5%B7%AE%E5%BC%82)
+  - [](#)
 
 
 ## TODO:
