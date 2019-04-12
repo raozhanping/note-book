@@ -12,6 +12,7 @@
         * [ Try Stylus ](./docs/css-stylus-try.md)
 * [ JavaScript ](./docs/js.md)
     * [ Codeless Tracking ](./docs/js-codeless-tracking.md)
+    * [ Event Loop ](./docs/js-event-loop.md)
     * [ React ](./docs/js-react.md)
     * [ Vue ](./docs/js-vue.md)
     * [ ServiceWorker ](./docs/js-sw-start.md)

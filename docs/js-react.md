@@ -9,6 +9,7 @@
     - [渲染虚拟DOM](#%E6%B8%B2%E6%9F%93%E8%99%9A%E6%8B%9Fdom)
     - [DOM-diff闪亮登场](#dom-diff%E9%97%AA%E4%BA%AE%E7%99%BB%E5%9C%BA)
     - [patch补丁更新](#patch%E8%A1%A5%E4%B8%81%E6%9B%B4%E6%96%B0)
+  - [package](#package)
   - [参考文献](#%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE)
 
 ## 类型验证(prop-types)
@@ -367,6 +368,8 @@ export default patch;
   4. 删除REMOVE 直接调用父级的removeChild方法删除该节点
 
 
+## package
+- mirrorx
 
 ## 参考文献
 1. [让虚拟DOM和DOM-diff不再成为你的绊脚石](https://mp.weixin.qq.com/s?__biz=MzA5NzkwNDk3MQ==&mid=2650589435&idx=1&sn=75005051cea090a2cda4b4a8aecb26a7&pass_ticket=JIeTs7T5OIBuudopj7hpG6ejn7QCYos7b5sPJ4jlWsDGiKGuPkt2uuIpI8GcaIIi)
