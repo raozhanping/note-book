@@ -1,7 +1,9 @@
 # function
 - [function](#function)
   - [JS Array Unique](#js-array-unique)
-  - [toastr 提示信息(debounce)](#toastr-%E6%8F%90%E7%A4%BA%E4%BF%A1%E6%81%AFdebounce)
+  - [toastr 提示信息(throttling)](#toastr-%E6%8F%90%E7%A4%BA%E4%BF%A1%E6%81%AFthrottling)
+  - [debounce](#debounce)
+  - [throttling](#throttling)
 
 ## JS Array Unique
 ```Javascript
@@ -28,7 +30,7 @@ ArrayUtil.unique = function (arr){
 ```
 
 
-## toastr 提示信息(debounce)
+## toastr 提示信息(throttling)
 ```Javascript
     /**
      * 每个入队的Obj 具有显示过渡期duringTime; 为其添加 自我销毁功能: 越过duringTime 自动出队
@@ -84,5 +86,55 @@ ArrayUtil.unique = function (arr){
             return toastrObj.index;
         };
     };
+```
+
+
+## debounce
+> 防抖技术即是可以把多个顺序地调用合并成一次，也就是在一定时间内，规定事件被触发的次数。
+
+```Javascript
+// 防抖动函数
+function debounce(func, wait, immediate) {
+    var timeout;
+    return function() {
+        var context = this, args = arguments;
+        var later = function() {
+            timeout = null;
+            if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+    };
+};
+```
+
+
+## throttling
+> 节流函数，只允许一个函数在 X 毫秒内执行一次。
+
+```Javascript
+// 简单的节流函数
+function throttle(func, wait, mustRun) {
+    var timeout,
+        startTime = new Date();
+ 
+    return function() {
+        var context = this,
+            args = arguments,
+            curTime = new Date();
+ 
+        clearTimeout(timeout);
+        // 如果达到了规定的触发时间间隔，触发 handler
+        if(curTime - startTime >= mustRun){
+            func.apply(context,args);
+            startTime = curTime;
+        // 没达到触发间隔，重新设定定时器
+        }else{
+            timeout = setTimeout(func, wait);
+        }
+    };
+};
 ```
 
