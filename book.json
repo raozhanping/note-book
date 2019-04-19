@@ -15,11 +15,11 @@
   },
   "output": null,
   "styles": {
-    "website": "styles/website.css",
-    "ebook": "styles/ebook.css",
-    "pdf": "styles/pdf.css",
-    "mobi": "styles/mobi.css",
-    "epub": "styles/epub.css"
+    "website": "static/styles/website.css",
+    "ebook": "static/styles/ebook.css",
+    "pdf": "static/styles/pdf.css",
+    "mobi": "static/styles/mobi.css",
+    "epub": "static/styles/epub.css"
   },
   "pdf": {
     "fontSize": 12,
