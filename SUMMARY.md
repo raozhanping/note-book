@@ -15,6 +15,7 @@
         * [ 无(全)埋点 ](./docs/js-track-codeless.md)
         * [ 模块曝光事件 ](./docs/js-track-expose.md)
     * [ package ](./docs/js-package.md)
+        * [ axios ](./docs/js-package-axios.md)
     * [ Event Loop ](./docs/js-event-loop.md)
     * [ React ](./docs/js-react.md)
     * [ Vue ](./docs/js-vue.md)
