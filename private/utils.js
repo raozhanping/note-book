@@ -88,9 +88,9 @@ export function extend(a, b, thisArg) {
     forEach(b, function assignValue(val, key) {
         // 如果指定了 thisArg 那么绑定执行上下文到 thisArg
         if (thisArg && typeof val === 'function') {
-        a[key] = bind(val, thisArg);
+            a[key] = bind(val, thisArg);
         } else {
-        a[key] = val;
+            a[key] = val;
         }
     });
 

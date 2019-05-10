@@ -1,4 +1,4 @@
-* [ JavaScript ](./docs/js.md)
-    * [Codeless Tracking](./docs/js-codeless-tracking.md)
-    * [ServiceWorker](./docs/js-sw-start.md)
-    * [WebSocket](./docs/js-ws.md)
+* [ JavaScript ](/docs/js.html)
+    * [Codeless Tracking](/docs/js-codeless-tracking.html)
+    * [ServiceWorker](/docs/js-sw-start.html)
+    * [WebSocket](/docs/js-ws.html)
