@@ -13,9 +13,7 @@
 
 ## TODO:
 - [ x ] 软件系统管理
-- [ x ] 正则表达式 => \w\W\d\D\s\S
 - [ x ] javascript => 设计模式
-- [ x ] script template 在不在render tree上
 - [ x ] animated css 对 dom 的性能优化
 - [ x ] CSS3
 - [ x ] css animate
