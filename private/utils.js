@@ -713,3 +713,164 @@ export function createCanvas (containerEle, options) {
     return chart;
 }
 
+/**
+ * 给 ePath 目标元素 渲染 percent 的热力效果
+ * @param {* String} ePath 
+ * @param {* Float} percent 
+ */
+export function renderHeatmap(ePath, percent) {
+    var PERCENT_ARR =[ 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.8];
+    var COLOR_ARR = [
+        'rgba(19, 39, 184, 0.5)',
+        'rgba(29, 126, 198, 0.6)',
+        'rgba(101, 215, 136, 0.7)',
+        'rgba(236, 240, 149, 0.8)',
+        'rgba(253, 183, 101, 1)',
+        'rgba(242, 108, 67, 1)',
+        'rgba(202, 52, 76, 1)',
+        'rgba(169, 17, 68, 1)',
+        'rgba(0, 0, 0, 0)',
+        ];
+    var HEATMAP_AREA_CLASS_NAME = 'datatist-heatmap-area';
+    var HEATMAP_CLASS_NAME = 'datatist-heatmap-';
+
+
+    renderHeatmap(ePath, percent);
+
+    //export
+    function renderHeatmap(ePath, percent) {
+        var targetEle = getTargetByEPath(ePath);
+        // 初始化热图效果
+        appendHeatmapStyle();
+        // 根据 percent 值得出 热力效果色值
+        // 给目标元素上色
+        //
+        colourEle(targetEle, getColorIndex(PERCENT_ARR, percent));
+    }
+
+    function colourEle(target, level, type) {
+        type = type || 'css'; // canvas
+        if (type === 'css') {
+            colourEleByCss(target, level);
+        } else if(type === 'canvas') {
+            //TODO:
+        }
+    }
+
+    function colourEleByCss(target, level) {
+        var className = getClass(target);
+        className = className.replace(/(datatist\-heatmap\-area )(datatist\-heatmap\-(\d)+)/g, function (m, $1, $2, $3) {
+            return makeHeatmapActiveClass(level);
+        });
+
+        setClass(target, className);
+    }
+
+    function makeHeatmapActiveClass(level) {
+        return level == null ? '' : HEATMAP_AREA_CLASS_NAME + ' ' + HEATMAP_CLASS_NAME + level;
+    }
+
+    function getClass(target) {
+        if (target.getAttribute('class')) {
+            return target.getAttribute('class');
+        }
+
+        return target.getAttribute('className');
+    }
+
+    function setClass(target, klass) {
+        if (target.getAttribute('class')) {
+            return target.setAttribute('class', klass);
+        }
+
+        return target.setAttribute('className', klass);
+    }
+
+    function getColorIndex(percentArr, percent) {
+        return percentArr.filter(function (p, index) {
+            return p < percent;
+        }).length;
+    }
+
+    renderHeatmap('div[2]/div[2]/ng-view[0]/div[0]/div[0]/div[1]', 0.4);
+
+    function getTargetByEPath(ePath) {
+        var targetEle = document.body;
+        var pathResult = decodeEPath(ePath);
+
+        for(var i = 0; i<pathResult.length; i += 2) {
+            targetEle = Array.prototype.filter.call(targetEle.children, function (ele) {
+                return ele.nodeName.toLowerCase() == pathResult[i]
+            })[pathResult[i + 1]];
+            if (!targetEle) {
+                console.log(ePath + '---元素未找到！');
+                return targetEle;
+            }
+        }
+
+        return targetEle;
+    }
+
+    function decodeEPath(ePath) {
+        var result = [];
+        // FIXME: epath 解析可能不准确，需真实数据验证
+        ePath.replace(/([a-z\-]+)(\[(\d+)\])?/gi,function (match, $1, $2, $3) {
+            result.push($1, $3 || 0);
+            return match;
+        });
+
+        return result;
+    }
+
+    function makeCssRule(colorArr) {
+        var cssRule = [
+            '.' + HEATMAP_AREA_CLASS_NAME + '{position: relative}',
+            '.' + HEATMAP_AREA_CLASS_NAME + '::before {content: "";width: 100%;max-width: 40px;position: absolute;top: 0;bottom: 0;left: 50%;transform: translateX(-50%);}'
+        ];
+        var tempGradient;
+        for(var i = 0; i < colorArr.length - 1; i++) {
+            tempGradient = replenishArr(colorArr.slice(0, i + 1).reverse(), colorArr[colorArr.length - 1]);
+            // if (colorArr.length - i > 3) {
+            tempGradient[0] = tempGradient[0] + ' 20%';
+            // }
+            cssRule.push('.datatist-heatmap-' + (i + 1) + '::before { background: ' + 'radial-gradient(circle closest-side,'+ tempGradient +')' + '}');
+        }
+
+        return cssRule.join('');
+    }
+
+    function appendStyle(style, flag) {
+        var styleEle;
+        flag = flag || 'datatist_heatmap';
+
+        if (document.getElementById(flag)) return false;
+
+        styleEle = document.createElement('style');
+        styleEle.type = 'text/css';
+        styleEle.setAttribute('name', flag);
+        styleEle.setAttribute('id', flag);
+        styleEle.styleSheet ? styleEle.styleSheet = style : styleEle.appendChild(document.createTextNode(style));
+
+        document.getElementsByTagName('head')[0].appendChild(styleEle);
+    }
+
+    function appendHeatmapStyle() {
+        var flag = 'datatist_heatmap';
+
+        if (document.getElementById(flag)) return false;
+
+        appendStyle(makeCssRule(COLOR_ARR), flag);
+    }
+
+    function replenishArr(arr, replace) {
+        // arr = arr.join('').split('');
+        // for(var  i = arr.length; i < length; i++) {
+        //     arr[i] = replace;
+        //     if (arr.indexOf(replace) > 0) return arr;
+        // }
+        arr[arr.length] = replace;
+
+        return arr;
+    }
+};
+
