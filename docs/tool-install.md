@@ -1,4 +1,5 @@
-#  开发工具 
+
+# 开发工具安装
 
 ## dia 工具
 alias dia="env GTK_IM_MODULE=xim dia"

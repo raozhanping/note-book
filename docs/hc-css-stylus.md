@@ -1,4 +1,4 @@
-# Try Stylus
+# Stylus
 
 ### Nesting
 > selector nesting enables you to keep your styles DRY:
@@ -163,4 +163,3 @@ body {
 ### Built-in functions
 ### Color BIFs
 ### 
-
