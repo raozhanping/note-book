@@ -1,7 +1,7 @@
 # Summary
 
 * [ 个人知识补充 ](README.md)
-* [ 书籍 pdf](docs/book-pdf.md)
+* [ 书籍 ](docs/book-pdf.md)
 * [ 前端面试 ](docs/interview.md)
 * [ HTML / CSS ](docs/html-css.md)
     * [ HTML ](docs/html.md)
@@ -11,7 +11,8 @@
         * [ CSS Modules Usage ](docs/css-modules-usage.md)
     * [ Stylus ](docs/css-stylus.md)
         * [ Try Stylus ](docs/css-stylus-try.md)
-* [ JavaScript ](docs/js.md)
+    * [ Nunjucks ](docs/template-nunjucks.md)
+* [ Javascript ](docs/js.md)
     * [ 前端 ](docs/js-frontend.md)
     * [ 正则表达式](docs/js-regular.md)
     * [ 数据可视化 ](docs/js-data-view.md)
@@ -25,8 +26,6 @@
     * [ Vue ](docs/js-vue.md)
     * [ ServiceWorker ](docs/js-sw-start.md)
     * [ WebSocket ](docs/js-ws.md)
-* [ Template ](docs/template.md)
-    * [ Nunjucks ](docs/template-nunjucks.md)
 * [ NodeJS ](docs/node.md)
     * [ Assert 断言 ](docs/node-assert.md)
     * [ chai.js 断言库 ](docs/node-chai.md)
