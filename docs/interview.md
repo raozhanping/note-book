@@ -10,14 +10,16 @@
 ## 前端面试题
 
 ### html
-1. Doctype作用？标准模式与兼容模式各有什么区别?
-2. 写出5种块（block）标签，写出5种内联（inline）标签
+1. doctype 作用? 严格模式与混杂模式如何区分？它们有何意义?
+2. 列出常见的标签，并简单介绍这些标签用在什么场景？
+3. 阐述下什么是块标签和内联标签，并写出5种块（block）标签，写出5种内联（inline）标签
+4. 如何在 html 页面上展示 <div></div> 这几个字符？
 
 ### css
 1. 阐述display分别为block, inline，inline-block的区别，(提示：在宽高、pading、margin上的区别）
 2. 阐述visibility:hidden和display:none的区别
 3. CSS选择器有哪些，举例写出如下选择器的实现方式
-    1.id选择器 例：#tableId                                                                                                       
+    1.id选择器 例：#tableId         
     2.类选择器
     3.标签选择器
     4.相邻选择器
@@ -26,19 +28,12 @@
     7.通配符选择器
     8.属性选择器
     9.伪类选择器
-4. 写出两种定宽div水平居中的方式（提示：margin和position方式）
-```html
-<body>
-    <div style="width:800px; margin:0 auto;">
-        centered content
-    </div>
-</body>
-```
-
-5. CSS优先级算法如何计算？(提示：从!important注释，元素内部style属性，tag样式，.class类选择器、js文件加载顺序角度去阐述）
-6. 简述css定义的权重如何计算
+4. 伪类选择器有哪些?
+5. 写出两种定宽div水平居中的方式(提示：margin和position方式)
+6. CSS优先级算法如何计算？(提示：从!important注释，元素内部style属性，...class类等选择器角度去阐述）
 7. 详细描述postion：absolute，fixed，relative，static的区别（提示：描述原点是怎么定位的）
-8. 写出.clear消除浮动的代码和其原理
+8. 写出.clearfix 消除浮动的代码并阐述其原理
+9. 如何让 Chrome 浏览器显示小于 12px 的文字？
 
 ### javascrit
 1. 介绍js的基本数据类型               
@@ -46,12 +41,22 @@
 3. 在做if判断时，空字符串(‘’)，空对象(null)，空数组([])，undefined，哪些为true哪些为false
 4. 写一段代码，分别使用call和apply向一个数组中添加一个元素
 5. 简述什么是闭包，和闭包的应用场景
-6. 时间轴的做法
-7. 如何实现一个深拷贝
+6. let, var, const 区别
+7. 阐述es6新特性有哪些
+9. 阐述下react 生命周期(提示： 从生命周期钩子函数解释)
+10. setState什么时候是同步，什么时候是异步的
+11. 浏览器是如何渲染页面的？
+12. 阐述下浏览器的事件循环机制
+
+### 工程化
+1. webpack 是如何打包文件的，或者阐述其基本配置有哪些分别有什么作用
+2. 常见的loader 和 plugin有哪些，他们的作用分别是什么
 
 ### 编程题
-1. **货币数**  
-    根据金额总数计算出最小货币数(count)
+1. 实现对象的深拷贝
+2. 实现一个方法使得数组[1, 2, 3, 4, 5, 6, 7]能够乱序输出
+3. 实现一个方法，对字符串'abbbcccccbb'压缩输出'a3b5c2b'
+4. 根据金额总数计算出最小货币数(count)
 
 ### 数据结构与算法
 1. **有效的括号**  
