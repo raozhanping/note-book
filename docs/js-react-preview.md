@@ -180,6 +180,7 @@ class NameForm extends React.Component {
 ```
 #### 状态提升
 > 状态共享
+
 #### 无状态组件
 #### 有状态组件
 #### 高阶组件(HOC)
