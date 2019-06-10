@@ -12,6 +12,7 @@
 
 
 ## TODO:
+- [ x ] mini pro 推流
 - [ x ] 软件系统管理
 - [ x ] javascript => 设计模式
 - [ x ] animated css 对 dom 的性能优化

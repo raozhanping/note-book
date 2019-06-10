@@ -25,6 +25,8 @@
         * [ React热身 ](docs/js-react-preview.md)
         * [ VDOM和DOM-diff ](docs/js-react-vdom.md)
     * [ Vue ](docs/js-vue.md)
+    * [ Omi ](docs/js-omi.md)
+    * [ MVVM ](docs/js-mvvm.md)
     * [ ServiceWorker ](docs/js-sw-start.md)
     * [ WebSocket ](docs/js-ws.md)
 * [ NodeJS ](docs/node.md)
