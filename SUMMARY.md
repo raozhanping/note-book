@@ -27,6 +27,7 @@
     * [ Vue ](docs/js-vue.md)
     * [ Omi ](docs/js-omi.md)
     * [ MVVM ](docs/js-mvvm.md)
+    * [ 百度小程序 ](docs/js-baidu-minipro.md)
     * [ ServiceWorker ](docs/js-sw-start.md)
     * [ WebSocket ](docs/js-ws.md)
 * [ NodeJS ](docs/node.md)

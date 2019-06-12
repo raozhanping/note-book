@@ -2,24 +2,24 @@
 
 ## MVVM框架理解
 ### MVC
-![mvc框架](https://segmentfault.com/img/bVuwov)
+![mvc框架]('../static/images/mvc.png')  
 
 将整个前端页面分成View，Controller，Modal，视图上发生变化，通过Controller（控件）将响应传入到Model（数据源），由数据源改变View上面的数据  
 整个过程看起来是行云流水，业务逻辑放在Model当中，页面渲染逻辑放在View当中，但在实际运用上却存在一个问题：那就是**MVC框架允许View和Model直接进行通信！！**  
 背离了开发所应该遵循的“**开放封闭原则**”  
 
 面对这个问题，MVVM框架就出现了，它与MVC框架的主要区别有两点：  
-1. 实现数据与视图的分离
-2. 通过数据来驱动视图，开发者只需要关心数据变化，DOM操作被封装了
+1. 实现数据与视图的分离  
+2. 通过数据来驱动视图，开发者只需要关心数据变化，DOM操作被封装了  
 
-![mvvm框架](https://segmentfault.com/img/bVbeQ94?w=1020&h=595)
+![mvvm框架]("../static/images/mvvm.png")  
 可以看到MVVM分别指View，Model，View-Model，View通过View-Model的DOM Listeners将事件绑定到Model上，而Model则通过Data Bindings来管理View中的数据，View-Model从中起到一个连接桥的作用  
 
 ### MVVM的实现原理
 MVVM的实现主要是三个核心点：  
-1. **响应式**：vue如何监听data的属性变化
-2. **模板解析**：vue的模板是如何被解析的
-3. **渲染**：vue模板是如何被渲染成HTML的
+1. **响应式**：vue如何监听data的属性变化  
+2. **模板解析**：vue的模板是如何被解析的  
+3. **渲染**：vue模板是如何被渲染成HTML的  
 
 #### 响应式
 **Object.defineProperty**  
