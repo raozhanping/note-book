@@ -7,9 +7,10 @@
   - 每次publish时，您都将得到一个提示符，提示每个已更改的包，以指定是补丁、次要更改、主要更改还是自定义更改
 
 ## Lerna Script
+
 ### lerna create [loc]
 > 创建一个包，name包名，loc 位置可选
-```shell
+```bash
 # 根目录的package.json 
  "workspaces": [
     "packages/*",
@@ -21,12 +22,11 @@ lerna create gpnote
 
 # 创建一个包gpnote指定放在 packages/@gp0320文件夹下，注意必须在workspaces先写入packages/@gp0320，看上面
 lerna create gpnote packages/@gp0320
-
 ```
 
 ### lerna add [@version] [--dev] [--exact]
 > 增加本地或者远程package做为当前项目packages里面的依赖
-```shell
+```bash
 # Adds the module-1 package to the packages in the 'prefix-' prefixed folders
 lerna add module-1 packages/prefix-*
 
