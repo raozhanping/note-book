@@ -26,7 +26,7 @@ lerna create gpnote packages/@gp0320
 
 ### lerna add [@version] [--dev] [--exact]
 > 增加本地或者远程package做为当前项目packages里面的依赖
-```bash
+```node
 # Adds the module-1 package to the packages in the 'prefix-' prefixed folders
 lerna add module-1 packages/prefix-*
 
