@@ -10,7 +10,7 @@
 
 ### lerna create [loc]
 > 创建一个包，name包名，loc 位置可选
-```bash
+```node
 # 根目录的package.json 
  "workspaces": [
     "packages/*",
