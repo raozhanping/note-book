@@ -10,7 +10,7 @@
 
 ### lerna create [loc]
 > 创建一个包，name包名，loc 位置可选
-```node
+```c
 # 根目录的package.json 
  "workspaces": [
     "packages/*",
@@ -26,7 +26,7 @@ lerna create gpnote packages/@gp0320
 
 ### lerna add [@version] [--dev] [--exact]
 > 增加本地或者远程package做为当前项目packages里面的依赖
-```node
+```c
 # Adds the module-1 package to the packages in the 'prefix-' prefixed folders
 lerna add module-1 packages/prefix-*
 
