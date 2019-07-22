@@ -76,6 +76,7 @@
     * [ Vim Command Collection ](docs/tool-vim.md)
     * [ Git ](docs/tool-git.md)
     * [ Lerna ](docs/tool-lerna.md)
+    * [ Ubuntu开发环境安装 ](docs/tool-ubuntu-env.md)
 * [ 运维测试 ](docs/ops.md)
     * [ nightwatch ](docs/ops-nightwatch.md)
 * [ 算法/数学/架构 ](docs/idea.md)
@@ -83,4 +84,5 @@
     * [ 架构设计经验分享 ](docs/idea-architectural.md)
     * [ 前端架构 ](docs/idea-front-end-archi.md)
     * [ 基本数据结构 ](docs/idea-data-structure.md)
+    * [ 函数式编程 ](docs/idea-func-programing.md)
 

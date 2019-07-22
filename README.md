@@ -1,25 +1,13 @@
-# 个人知识补充
+# 速记
 
-- [个人知识补充](#%E4%B8%AA%E4%BA%BA%E7%9F%A5%E8%AF%86%E8%A1%A5%E5%85%85)
-  - [TODO:](#todo)
+- [速记](#%E9%80%9F%E8%AE%B0)
   - [git commit format](#git-commit-format)
-  - [getBoundingClientRect](#getboundingclientrect)
-  - [dispatchEvent](#dispatchevent)
-  - [JS滚轮事件(mousewheel/DOMMouseScroll)](#js%E6%BB%9A%E8%BD%AE%E4%BA%8B%E4%BB%B6mousewheeldommousescroll)
+  - [getBoundingClientRect](#getBoundingClientRect)
+  - [dispatchEvent](#dispatchEvent)
+  - [JS滚轮事件(mousewheel/DOMMouseScroll)](#JS%E6%BB%9A%E8%BD%AE%E4%BA%8B%E4%BB%B6mousewheelDOMMouseScroll)
     - [兼容差异](#%E5%85%BC%E5%AE%B9%E5%B7%AE%E5%BC%82)
   - [渲染10k条记录](#%E6%B8%B2%E6%9F%9310k%E6%9D%A1%E8%AE%B0%E5%BD%95)
-  - [window.requestIdleCallback()](#windowrequestidlecallback)
-
-
-## TODO:
-- [ x ] san 框架
-- [ x ] mini pro 推流
-- [ x ] 软件系统管理
-- [ x ] javascript => 设计模式
-- [ x ] animated css 对 dom 的性能优化
-- [ x ] CSS3
-- [ x ] css animate
-- [ x ] conventional-changelog(npm)
+  - [window.requestIdleCallback()](#windowrequestIdleCallback)
 
 ## git commit format
 ```javascript
