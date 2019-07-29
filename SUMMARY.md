@@ -1,6 +1,6 @@
 # Summary
 
-* [ 个人知识补充 ](README.md)
+* [ 速记 ](README.md)
 * [ 书籍 ](docs/book-pdf.md)
 * [ 前端面试 ](docs/interview.md)
 * [ HTML / CSS ](docs/html-css.md)
