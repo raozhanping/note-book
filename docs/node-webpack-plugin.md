@@ -78,6 +78,7 @@ class Plugin {
 ```
 
 - chunk 字段
+
 ```js
 {
   id: 0,
@@ -120,6 +121,7 @@ class Plugin {
 ```
 
 - module 字段
+
 ```js
 {
   dependencies: [],
@@ -203,7 +205,6 @@ class Plugin {
 
 }
 ```
-
 
 ### 监听文件变化
 ```js
