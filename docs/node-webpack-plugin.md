@@ -73,10 +73,137 @@ class Plugin {
           // 调用一个输出资源的 source() 方法能获取到输出资源的内容
           let source = compilation.assets[filename].source();
         })
-
     }
 }
 ```
+
+- chunk 字段
+```js
+{
+  id: 0,
+  ids: [ 0 ],
+  debugId: 1003,
+  name: 'app',
+  preventIntegration: false,
+  entryModule: {
+    // NormalModule
+    {
+      dependencies: [],
+      blocks: [],
+      variables: [],
+      type: '',
+      ...
+    }
+  },
+  _modules: Set {
+    // CssModule
+    {
+      dependencies: [],
+      blocks: [],
+      type: 'css/mini-extract'
+    },
+    // NormalModule
+    {
+      type: 'javascript/auto'
+    }
+    // ConcatenatedModule
+    {
+      type: 'javascript/esm'
+    }
+    ...
+  },
+  files: [],
+  rendered: true,
+  hash: 'hash 32',
+  contentHash:
+}
+```
+
+- module 字段
+```js
+{
+  dependencies: [],
+  blocks: [],
+  variables: [],
+  type: '',
+  context: '' | null,
+  debugId: 1041,
+  hash: 'hash 32',
+  renderedHash: 'hash 20',
+  resolveOptions: {} ,
+  factoryMeta: {},
+  warnings: [],
+  errors: [],
+  buildMeta: {},
+  buildInfo: {
+    strict: true,
+    cacheable: true,
+    moduleArgument: undefined,
+    exportsArgument: '__webpack_exports__',
+    fileDependencies: Set {},
+    contextDependencies: Set {},
+    assets: undefined,
+  },
+  reasons: [
+    {
+      // ModuleReason
+      module: [NormalModule],
+      dependency: [],
+      explanation: undefined,
+      _chunks: null
+    }
+  ],
+  _chunks: Set {
+    {
+      // Chunk
+       id: 0,
+       ids: [Array],
+       debugId: 1003,
+       name: 'app',
+       preventIntegration: false,
+       entryModule: [NormalModule],
+       _modules: [SortableSet],
+       filenameTemplate: undefined,
+       _groups: [SortableSet],
+       files: [Array],
+       rendered: true,
+       hash: '4be1571b7464f812b1b2e7cc00a6bc04',
+       contentHash: [Object],
+       renderedHash: '4be1571b7464f812b1b2',
+       chunkReason: undefined,
+       extraAsync: false,
+       removedModules: undefined },
+     _lastActiveSortFn: null,
+     _sortFn: [Function: sortById],
+     _cache: undefined,
+     _cacheOrderIndependent: undefined
+     }
+  },
+  id: 15,
+  index: 21,
+  index2: 28,
+  depth: 1,
+  issuer: null,
+  profile: undefined,
+  prefetched: false,
+  built: true,
+  used: true,
+  usedExports: true,
+  optimizationBailout: [],
+  _rewriteChunkInReasons: undefined,
+  useSourceMap: false,
+  _source: null,
+  rootModule: {
+    // NormalModule
+    {
+      dependencies: [],
+      ...
+    }
+  }
+
+}
+```
+
 
 ### 监听文件变化
 ```js
