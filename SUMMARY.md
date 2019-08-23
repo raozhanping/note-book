@@ -12,9 +12,11 @@
     * [ Stylus ](docs/hc-css-stylus.md)
     * [ Nunjucks ](docs/hc-template-nunjucks.md)
 * [ Javascript ](docs/js.md)
-    * [ 前端 ](docs/js-frontend.md)
+    <!-- * [ 前端 ](docs/js-frontend.md) -->
     * [ 正则表达式 ](docs/js-regular.md)
+    * [ 代理(Proxy)和反射(Reflection) ](docs/js-es6-proxy.md)
     * [ 类型转换 ](docs/js-type-conversion.md)
+    * [ 按位操作 ](docs/js-bitwise-operation.md)
     * [ 数据可视化 ](docs/js-data-view.md)
     * [ 数据采集 ](docs/js-track.md)
         * [ 无(全)埋点 ](docs/js-track-codeless.md)
