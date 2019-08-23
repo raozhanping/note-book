@@ -81,6 +81,8 @@
     * [ 开发工具安装 ](docs/tool-install.md)
     * [ Vim Command Collection ](docs/tool-vim.md)
     * [ Git ](docs/tool-git.md)
+      * [ Git Rule ](docs/tool-git-commit_rule.md)
+      * [ Git Submodule ](docs/tool-git-submodule.md)
     * [ Lerna ](docs/tool-lerna.md)
     * [ Ubuntu开发环境安装 ](docs/tool-ubuntu-env.md)
 * [ 运维测试 ](docs/ops.md)
