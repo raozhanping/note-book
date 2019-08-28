@@ -1,22 +1,4 @@
 # Git
-- [Git](#git)
-  - [git 免密 pull/push](#git-%E5%85%8D%E5%AF%86-pullpush)
-  - [具体规则](#%E5%85%B7%E4%BD%93%E8%A7%84%E5%88%99)
-    - [type](#type)
-    - [scope](#scope)
-    - [subject](#subject)
-  - [项目中使用](#%E9%A1%B9%E7%9B%AE%E4%B8%AD%E4%BD%BF%E7%94%A8)
-    - [使用方式](#%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F)
-  - [Commit 规范的作用](#commit-%E8%A7%84%E8%8C%83%E7%9A%84%E4%BD%9C%E7%94%A8)
-  - [生成 Change log](#%E7%94%9F%E6%88%90-change-log)
-  - [命令详解](#%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3)
-
----
-
-## git 免密 pull/push
-```bash
-git config --global credential.helper store
-```
 
 ## 具体规则
 ```javascript
@@ -35,7 +17,6 @@ refactor：重构（即不是新增功能，也不是修改bug的代码变动）
 test：增加测试
 chore：构建过程或辅助工具的变动
 ```
-
 ### scope
     用于说明 commit 影响的范围，比如数据层、控制层、视图层等等，视项目不同而不同  
 

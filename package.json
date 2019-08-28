@@ -33,6 +33,16 @@
     "gitbook-plugin-toggle-chapters": "0.0.3"
   },
   "devDependencies": {
-    "serve": "^9.1.0"
+    "serve": "^9.1.0",
+    "@babel/core": "^7.5.4",
+    "@babel/plugin-external-helpers": "^7.2.0",
+    "@babel/polyfill": "^7.4.4",
+    "builtin-modules": "^3.1.0",
+    "builtins": "^2.0.1",
+    "rollup": "^1.16.7",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "@babel/preset-env": "^7.5.4"
   }
 }

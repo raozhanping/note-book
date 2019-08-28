@@ -22,7 +22,7 @@
 - [MpVue](http://mpvue.com/mpvue/#-html)
 - [Taro](https://taro.aotu.io/)
 
-![微信小程序第三方框架对比]("../images/微信小程序第三方框架对比.png")
+![微信小程序第三方框架对比](../static/images/微信小程序第三方框架对比.png)
 
 ## 生命周期
 > 同为vue规范的mpvue和wepy的生命周期和各种方法不尽相同
