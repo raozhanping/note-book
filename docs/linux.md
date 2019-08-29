@@ -44,3 +44,9 @@ linuxidc ALL=NOPASSWD:ALL
 ```bash
     sudo passwd
 ```
+
+## ubuntu 解决网页音频无法播放
+```bash
+# 解码器
+sudo apt-get install ubuntu-restricted-extras
+```

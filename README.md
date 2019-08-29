@@ -1,19 +1,20 @@
 # 速记
 
-- [速记](#%e9%80%9f%e8%ae%b0)
-  - [TODO:](#todo)
+- [速记](#%E9%80%9F%E8%AE%B0)
+  - [TODO:](#TODO)
   - [git commit format](#git-commit-format)
-  - [getBoundingClientRect](#getboundingclientrect)
-  - [dispatchEvent](#dispatchevent)
-  - [JS滚轮事件(mousewheel/DOMMouseScroll)](#js%e6%bb%9a%e8%bd%ae%e4%ba%8b%e4%bb%b6mousewheeldommousescroll)
-    - [兼容差异](#%e5%85%bc%e5%ae%b9%e5%b7%ae%e5%bc%82)
-  - [渲染10k条记录](#%e6%b8%b2%e6%9f%9310k%e6%9d%a1%e8%ae%b0%e5%bd%95)
-  - [window.requestIdleCallback()](#windowrequestidlecallback)
+  - [getBoundingClientRect](#getBoundingClientRect)
+  - [dispatchEvent](#dispatchEvent)
+  - [JS滚轮事件(mousewheel/DOMMouseScroll)](#JS%E6%BB%9A%E8%BD%AE%E4%BA%8B%E4%BB%B6mousewheelDOMMouseScroll)
+    - [兼容差异](#%E5%85%BC%E5%AE%B9%E5%B7%AE%E5%BC%82)
+  - [渲染10k条记录](#%E6%B8%B2%E6%9F%9310k%E6%9D%A1%E8%AE%B0%E5%BD%95)
+  - [window.requestIdleCallback()](#windowrequestIdleCallback)
 
 ## TODO:
 1. [ 按位操作 ](./docs/js-bitwise-operation.md)
 2. [ 代理(Proxy)和反射(Reflection) ](./docs/js-es6-proxy.md)
 3. [ Ubuntu开发环境安装 ](docs/tool-ubuntu-env.md)
+
 
 ## git commit format
 ```javascript
@@ -35,10 +36,13 @@
 - chore：构建过程或辅助工具的变动
 - revert: feat(pencil): add 'graphiteWidth' option (撤销之前的commit)
 
+
 ## getBoundingClientRect
+
 
 ## dispatchEvent
 创建(`createEvent`)-初始(`init*Event`)-分派(`dispatchEvent`)
+
 
 ## JS滚轮事件(mousewheel/DOMMouseScroll)
 ### 兼容差异
