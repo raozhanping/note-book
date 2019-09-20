@@ -1,7 +1,7 @@
 # Summary
 
 * [ 速记 ](README.md)
-* [ 书籍 ](docs/book-pdf.md)
+<!-- * [ 书籍 ](docs/book-pdf.md) -->
 * [ 前端面试 ](docs/interview.md)
 * [ HTML / CSS ](docs/html-css.md)
     * [ HTML ](docs/hc-html.md)
@@ -74,9 +74,9 @@
 * [ 微信小程序 ](docs/mini-program.md)
     * [ 微信小程序安装(linux) ](docs/mini-program-install.md)
     * [ 小程序第三方框架 ](docs/mini-program-thirdparty.md)
-* [ XML 教程 ](docs/XML.md)
-* [ ASP.NET ](docs/ASP.NET.md)
-* [ Web Service ](docs/Web-Service.md)
+<!-- * [ XML 教程 ](docs/XML.md) -->
+<!-- * [ ASP.NET ](docs/ASP.NET.md) -->
+<!-- * [ Web Service ](docs/Web-Service.md) -->
 * [ 开发工具 ](docs/tool-dev.md)
     * [ 开发工具安装 ](docs/tool-install.md)
     * [ Vim Command Collection ](docs/tool-vim.md)
