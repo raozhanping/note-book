@@ -47,3 +47,28 @@ function factorial(n, total) {
 
 log(factorial(3, 1));
 
+const 以 = { 单独: '单独1'}
+
+const { 单独 } = 以
+
+console.log(单独)
+
+let dd = {0: 1, length: 1}
+// console.log([...dd])
+
+let sym = Symbol('name')
+let symObj = { [sym]: 111 }
+console.log(symObj)
+console.log(sym in symObj)
+for(let key in symObj) {
+  console.log(key)
+}
+
+
+const mockFunc = {
+  a: 1,
+  call: function() {
+    return '1111'
+  }
+}
+console.log(typeof mockFunc)
