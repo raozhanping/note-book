@@ -1,7 +1,6 @@
-# Summary
+# Table of contents
 
 * [速记](README.md)
-<!-- * [书籍](docs/book-pdf.md) -->
 * [前端面试](docs/interview.md)
 * [HTML / CSS](docs/html-css.md)
   * [HTML](docs/hc-html.md)
@@ -12,14 +11,13 @@
     * [Stylus](docs/hc-css-stylus.md)
     * [Nunjucks](docs/hc-template-nunjucks.md)
 * [Javascript](docs/js.md)
-    <!-- * [前端](docs/js-frontend.md) -->
   * [正则表达式](docs/js-regular.md)
-  * [代理(Proxy)和反射(Reflection)](docs/js-es6-proxy.md)
+  * [代理\(Proxy\)和反射\(Reflection\)](docs/js-es6-proxy.md)
   * [类型转换](docs/js-type-conversion.md)
   * [按位操作](docs/js-bitwise-operation.md)
   * [数据可视化](docs/js-data-view.md)
   * [数据采集](docs/js-track.md)
-    * [无(全)埋点](docs/js-track-codeless.md)
+    * [无\(全\)埋点](docs/js-track-codeless.md)
     * [模块曝光事件](docs/js-track-expose.md)
   * [package](docs/js-package.md)
     * [axios](docs/js-package-axios.md)
@@ -72,17 +70,15 @@
   * [GraphQL](docs/db-graphql.md)
 * [移动端](docs/mobile.md)
 * [微信小程序](docs/mini-program.md)
-  * [微信小程序安装(linux)](docs/mini-program-install.md)
+  * [微信小程序安装\(linux\)](docs/mini-program-install.md)
   * [小程序第三方框架](docs/mini-program-thirdparty.md)
-<!-- * [XML 教程](docs/XML.md) -->
-<!-- * [ASP.NET](docs/ASP.NET.md) -->
-<!-- * [Web Service](docs/Web-Service.md) -->
 * [开发工具](docs/tool-dev.md)
   * [开发工具安装](docs/tool-install.md)
   * [Vim Command Collection](docs/tool-vim.md)
   * [Git](docs/tool-git.md)
     * [Git Rule](docs/tool-git-commit_rule.md)
     * [Git Submodule](docs/tool-git-submodule.md)
+    * [gitignore](tool-dev/tool-git/gitignore.md)
   * [Lerna](docs/tool-lerna.md)
   * [Ubuntu开发环境安装](docs/tool-ubuntu-env.md)
 * [运维测试](docs/ops.md)
@@ -94,3 +90,4 @@
   * [前端架构](docs/idea-front-end-archi.md)
   * [基本数据结构](docs/idea-data-structure.md)
   * [函数式编程](docs/idea-func-programing.md)
+
