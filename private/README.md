@@ -140,4 +140,3 @@ function throttle(func, wait, mustRun) {
 ```
 
 
-## 
