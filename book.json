@@ -45,6 +45,7 @@
   ],
   "pluginsConfig": {
     "theme-fexa": {
+      "output": "./docs",
       "logo": "./static/logo.png"
     },
     "fontSettings": {

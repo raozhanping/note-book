@@ -20,7 +20,7 @@
 #### 标签
 - if
 - for
-```javascript
+```js
   <h1>Posts</h1>
   <ul>
   {% for item in items %}
@@ -47,7 +47,7 @@
 - macro  
 宏（macro） 可以定义可复用的内容，类似于编程语言中的函数.
 
-```javascript
+```js
   {% macro field(name, value='', type='test') %}
   <div class="field">
   <input type="{{ type }}" name="{{ name }}" value="{{ value | escape }}"/>
@@ -69,7 +69,7 @@
   include 可以引入其他的模板，可以再多模板之间共享一些小模板，如果某个模板已使用了继承那么 include 将会非常有用。  
   在某些情况下，我们可能希望在模板文件不存在时不要抛弃异常。对于这些情况，我们可以使用 ignore missing 来略过这些异常：
 
-```javascript
+```js
 {% include 'missing.html' ignore missing %}
 ```
 
