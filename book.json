@@ -13,7 +13,6 @@
         "weibo": null
     }
   },
-  "output": "./docs",
   "styles": {
     "website": "static/styles/website.css"
   },
