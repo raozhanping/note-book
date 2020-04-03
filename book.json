@@ -1,0 +1,70 @@
+{
+  "root": "./",
+  "author": "raozhanping",
+  "description": "This is a note book created by gitbook",
+  "extension": null,
+  "generator": "site",
+  "links": {
+    "sharing": {
+        "all": null,
+        "facebook": null,
+        "google": null,
+        "twitter": null,
+        "weibo": null
+    }
+  },
+  "output": "./docs",
+  "styles": {
+    "website": "static/styles/website.css"
+  },
+  "pdf": {
+    "fontSize": 12,
+    "footerTemplate": null,
+    "headerTemplate": null,
+    "margin": {
+        "bottom": 36,
+        "left": 62,
+        "right": 62,
+        "top": 36
+    },
+    "pageNumbers": false,
+    "paperSize": "a4"
+  },
+  "plugins": [
+    "theme-fexa",
+    "search-pro",
+    "-disqus",
+    "advanced-emoji",
+    "github",
+    "katex",
+    "splitter",
+    "-sharing",
+    "tbfed-pagefooter",
+    "toggle-chapters",
+    "-sectionx",
+    "-baidu"
+  ],
+  "pluginsConfig": {
+    "theme-fexa": {
+      "logo": "./static/logo.png"
+    },
+    "fontSettings": {
+    },
+    "disqus": {
+      "shortName": "ricann"
+    },
+    "theme-default": {
+      "showLevel": false
+    },
+    "github": {
+      "url": "https://github.com/raozhanping"
+    },
+    "tbfed-pagefooter": {
+      "copyright": "",
+      "modify_label": "文件修改于：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    }
+  },
+  "title": "",
+  "variables": {}
+}

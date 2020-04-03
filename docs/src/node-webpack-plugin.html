@@ -1,0 +1,1854 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>编写插件 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="raozhanping">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-fexa/fexa.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../static/styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="node-isomorphism-render.html" />
+    
+    
+    <link rel="prev" href="node-webpack.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+	<div class="header-inner">
+		<!-- LOGO -->
+		<div class="logo"></div>
+		<span class="title"></span>
+
+		<!-- Search -->
+		
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+
+		<!-- Nav -->
+		<ul class="header-nav">
+			
+		</ul>
+	</div>
+
+	<div class="book-summary">
+		<div class="book-summary-title">文档目录</div>
+		
+		
+		<nav role="navigation">
+			
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    速记
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="interview.html">
+            
+                <a href="interview.html">
+            
+                    
+                    前端面试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="html-css.html">
+            
+                <a href="html-css.html">
+            
+                    
+                    HTML / CSS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="hc-html.html">
+            
+                <a href="hc-html.html">
+            
+                    
+                    HTML
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="hc-css.html">
+            
+                <a href="hc-css.html">
+            
+                    
+                    CSS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="hc-css-modules.html">
+            
+                <a href="hc-css-modules.html">
+            
+                    
+                    CSS Modules
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1" data-path="hc-cm-readme.html">
+            
+                <a href="hc-cm-readme.html">
+            
+                    
+                    CSS Modules
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1.1" data-path="hc-cm-usage.html">
+            
+                <a href="hc-cm-usage.html">
+            
+                    
+                    CSS Modules Usage
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2" data-path="hc-css-stylus.html">
+            
+                <a href="hc-css-stylus.html">
+            
+                    
+                    Stylus
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.3" data-path="hc-template-nunjucks.html">
+            
+                <a href="hc-template-nunjucks.html">
+            
+                    
+                    Nunjucks
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="js.html">
+            
+                <a href="js.html">
+            
+                    
+                    Javascript
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="js-regular.html">
+            
+                <a href="js-regular.html">
+            
+                    
+                    正则表达式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="js-es6-proxy.html">
+            
+                <a href="js-es6-proxy.html">
+            
+                    
+                    代理(Proxy)和反射(Reflection)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="js-type-conversion.html">
+            
+                <a href="js-type-conversion.html">
+            
+                    
+                    类型转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="js-bitwise-operation.html">
+            
+                <a href="js-bitwise-operation.html">
+            
+                    
+                    按位操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="js-data-view.html">
+            
+                <a href="js-data-view.html">
+            
+                    
+                    数据可视化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="js-track.html">
+            
+                <a href="js-track.html">
+            
+                    
+                    数据采集
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.6.1" data-path="js-track-codeless.html">
+            
+                <a href="js-track-codeless.html">
+            
+                    
+                    无(全)埋点
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6.2" data-path="js-track-expose.html">
+            
+                <a href="js-track-expose.html">
+            
+                    
+                    模块曝光事件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="js-package.html">
+            
+                <a href="js-package.html">
+            
+                    
+                    package
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.7.1" data-path="js-package-axios.html">
+            
+                <a href="js-package-axios.html">
+            
+                    
+                    axios
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="js-event-loop.html">
+            
+                <a href="js-event-loop.html">
+            
+                    
+                    Event Loop
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="js-react.html">
+            
+                <a href="js-react.html">
+            
+                    
+                    React
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.9.1" data-path="js-react-preview.html">
+            
+                <a href="js-react-preview.html">
+            
+                    
+                    React热身
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9.2" data-path="js-react-vdom.html">
+            
+                <a href="js-react-vdom.html">
+            
+                    
+                    VDOM和DOM-diff
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="js-vue.html">
+            
+                <a href="js-vue.html">
+            
+                    
+                    Vue
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="js-omi.html">
+            
+                <a href="js-omi.html">
+            
+                    
+                    Omi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12" data-path="js-mvvm.html">
+            
+                <a href="js-mvvm.html">
+            
+                    
+                    MVVM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13" data-path="js-baidu-minipro.html">
+            
+                <a href="js-baidu-minipro.html">
+            
+                    
+                    百度小程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.14" data-path="js-ast.html">
+            
+                <a href="js-ast.html">
+            
+                    
+                    AST抽象语法树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.15" data-path="js-sw-start.html">
+            
+                <a href="js-sw-start.html">
+            
+                    
+                    ServiceWorker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.16" data-path="js-ws.html">
+            
+                <a href="js-ws.html">
+            
+                    
+                    WebSocket
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="node.html">
+            
+                <a href="node.html">
+            
+                    
+                    NodeJS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="node-assert.html">
+            
+                <a href="node-assert.html">
+            
+                    
+                    Assert 断言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="node-chai.html">
+            
+                <a href="node-chai.html">
+            
+                    
+                    chai.js 断言库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="node-global.html">
+            
+                <a href="node-global.html">
+            
+                    
+                    Node Global Obj And Var
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="node-CLI.html">
+            
+                <a href="node-CLI.html">
+            
+                    
+                    CLI Writed By Nodejs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="node-framework.html">
+            
+                <a href="node-framework.html">
+            
+                    
+                    Framework
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.5.1" data-path="node-framework-hapi.html">
+            
+                <a href="node-framework-hapi.html">
+            
+                    
+                    Hapi Js Framework
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="node-electrode.html">
+            
+                <a href="node-electrode.html">
+            
+                    
+                    Electrode JS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.6.1" data-path="node-electrode-platform.html">
+            
+                <a href="node-electrode-platform.html">
+            
+                    
+                    Electrode Platform
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6.2" data-path="node-electrode-question.html">
+            
+                <a href="node-electrode-question.html">
+            
+                    
+                    Electrode Question
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="node-redux.html">
+            
+                <a href="node-redux.html">
+            
+                    
+                    Redux
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.7.1" data-path="node-redux-basic.html">
+            
+                <a href="node-redux-basic.html">
+            
+                    
+                    Redux Basic Usage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7.2" data-path="node-redux-middleware.html">
+            
+                <a href="node-redux-middleware.html">
+            
+                    
+                    Middleware And Asynchronous
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7.3" data-path="node-react-redux.html">
+            
+                <a href="node-react-redux.html">
+            
+                    
+                    React-Redux 的用法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="node-npm.html">
+            
+                <a href="node-npm.html">
+            
+                    
+                    NPM
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.8.1" data-path="node-package.html">
+            
+                <a href="node-package.html">
+            
+                    
+                    package.json
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8.2" data-path="node-npm-semver.html">
+            
+                <a href="node-npm-semver.html">
+            
+                    
+                    semver
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9" data-path="node-webpack.html">
+            
+                <a href="node-webpack.html">
+            
+                    
+                    Webpack
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.5.9.1" data-path="node-webpack-plugin.html">
+            
+                <a href="node-webpack-plugin.html">
+            
+                    
+                    编写插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.10" data-path="node-isomorphism-render.html">
+            
+                <a href="node-isomorphism-render.html">
+            
+                    
+                    同构渲染
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="service-terminal.html">
+            
+                <a href="service-terminal.html">
+            
+                    
+                    服务端
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="docker.html">
+            
+                <a href="docker.html">
+            
+                    
+                    Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="inotify.html">
+            
+                <a href="inotify.html">
+            
+                    
+                    Inotify
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="linux.html">
+            
+                <a href="linux.html">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="nginx.html">
+            
+                <a href="nginx.html">
+            
+                    
+                    Nginx
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.4.1" data-path="nginx-readme.html">
+            
+                <a href="nginx-readme.html">
+            
+                    
+                    Nginx简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4.2" data-path="nginx-install.html">
+            
+                <a href="nginx-install.html">
+            
+                    
+                    Nginx原理、安装预配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="TCP&IP.html">
+            
+                <a href="TCP&IP.html">
+            
+                    
+                    TCP/IP 协议
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="http.html">
+            
+                <a href="http.html">
+            
+                    
+                    HTTP 协议
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.6.1" data-path="http-base.html">
+            
+                <a href="http-base.html">
+            
+                    
+                    基础概念篇
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6.2" data-path="http-detail.html">
+            
+                <a href="http-detail.html">
+            
+                    
+                    协议详解篇
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="process.html">
+            
+                <a href="process.html">
+            
+                    
+                    Process
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.7.1" data-path="process-node-sync.html">
+            
+                <a href="process-node-sync.html">
+            
+                    
+                    阻塞与非阻塞
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7.2" data-path="process-node-process.html">
+            
+                <a href="process-node-process.html">
+            
+                    
+                    进程与线程优性能
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="database.html">
+            
+                <a href="database.html">
+            
+                    
+                    数据库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="db-graphql.html">
+            
+                <a href="db-graphql.html">
+            
+                    
+                    GraphQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="mobile.html">
+            
+                <a href="mobile.html">
+            
+                    
+                    移动端
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="mini-program.html">
+            
+                <a href="mini-program.html">
+            
+                    
+                    微信小程序
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="mini-program-install.html">
+            
+                <a href="mini-program-install.html">
+            
+                    
+                    微信小程序安装(linux)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="mini-program-thirdparty.html">
+            
+                <a href="mini-program-thirdparty.html">
+            
+                    
+                    小程序第三方框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="tool-dev.html">
+            
+                <a href="tool-dev.html">
+            
+                    
+                    开发工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="tool-install.html">
+            
+                <a href="tool-install.html">
+            
+                    
+                    开发工具安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="tool-vim.html">
+            
+                <a href="tool-vim.html">
+            
+                    
+                    Vim Command Collection
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="tool-git.html">
+            
+                <a href="tool-git.html">
+            
+                    
+                    Git
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.3.1" data-path="tool-git-commit_rule.html">
+            
+                <a href="tool-git-commit_rule.html">
+            
+                    
+                    Git Rule
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3.2" data-path="tool-git-submodule.html">
+            
+                <a href="tool-git-submodule.html">
+            
+                    
+                    Git Submodule
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3.3" data-path="tool-git-gitignore.html">
+            
+                <a href="tool-git-gitignore.html">
+            
+                    
+                    gitignore
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.4" data-path="tool-lerna.html">
+            
+                <a href="tool-lerna.html">
+            
+                    
+                    Lerna
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.5" data-path="tool-ubuntu-env.html">
+            
+                <a href="tool-ubuntu-env.html">
+            
+                    
+                    Ubuntu开发环境安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="ops.html">
+            
+                <a href="ops.html">
+            
+                    
+                    运维测试
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="ops-nightwatch.html">
+            
+                <a href="ops-nightwatch.html">
+            
+                    
+                    Nightwatch
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="ops-jest.html">
+            
+                <a href="ops-jest.html">
+            
+                    
+                    Jest
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="idea.html">
+            
+                <a href="idea.html">
+            
+                    
+                    算法/数学/架构
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="idea-design-mode.html">
+            
+                <a href="idea-design-mode.html">
+            
+                    
+                    设计模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2" data-path="idea-architectural.html">
+            
+                <a href="idea-architectural.html">
+            
+                    
+                    架构设计经验分享
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.3" data-path="idea-front-end-archi.html">
+            
+                <a href="idea-front-end-archi.html">
+            
+                    
+                    前端架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.4" data-path="idea-data-structure.html">
+            
+                <a href="idea-data-structure.html">
+            
+                    
+                    基本数据结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.5" data-path="idea-func-programing.html">
+            
+                <a href="idea-func-programing.html">
+            
+                    
+                    函数式编程
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+		</nav>
+		
+		
+	</div>
+
+	<!-- Content nav -->
+	<div class="book-anchor">
+		<div class="book-anchor-title">在这篇文章中:</div>
+		<div class="book-anchor-body">
+
+		</div>
+	</div>
+
+	<div class="book-body">
+		
+		<div class="body-inner">
+			
+			
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >编写插件</a>
+    </h1>
+</div>
+
+
+
+
+			<div class="page-wrapper" tabindex="-1" role="main">
+				<div class="page-inner">
+					
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+					<section class="normal markdown-section">
+						
+						<h1 id="&#x7F16;&#x5199;&#x63D2;&#x4EF6;">&#x7F16;&#x5199;&#x63D2;&#x4EF6;</h1>
+<h2 id="&#x57FA;&#x7840;&#x63D2;&#x4EF6;">&#x57FA;&#x7840;&#x63D2;&#x4EF6;</h2>
+<h3 id="&#x7F16;&#x5199;&#x793A;&#x4F8B;">&#x7F16;&#x5199;&#x793A;&#x4F8B;</h3>
+<pre><code class="lang-js"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">BasicPlugin</span> </span>{
+    <span class="hljs-comment">// &#x4ECE;&#x6784;&#x9020;&#x51FD;&#x6570;&#x4E2D;&#x83B7;&#x53D6;&#x7528;&#x6237;&#x8BBE;&#x7F6E;&#x7684;&#x914D;&#x7F6E;</span>
+    <span class="hljs-keyword">constructor</span> (options) {
+
+    }
+    <span class="hljs-comment">// Webpack &#x4F1A;&#x8C03;&#x7528; BasicPlugin &#x5B9E;&#x4F8B;&#x7684; apply &#x65B9;&#x6CD5;&#x7ED9;&#x63D2;&#x4EF6;&#x5B9E;&#x4F8B;&#x4F20;&#x5165; compiler &#x5BF9;&#x8C61;</span>
+    apply (compiler) {
+        compiler.hooks.compilation.tap(<span class="hljs-string">&apos;BasicPlugin&apos;</span>, compilation =&gt; {
+
+        })
+    }
+}
+
+<span class="hljs-comment">// &#x5BFC;&#x51FA; Plugin</span>
+<span class="hljs-built_in">module</span>.exports = BasicPlugin
+</code></pre>
+<h3 id="&#x4F7F;&#x7528;&#x793A;&#x4F8B;">&#x4F7F;&#x7528;&#x793A;&#x4F8B;</h3>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> BasicPlugin = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;./BasicPlugin.js&apos;</span>)
+
+<span class="hljs-built_in">module</span>.exports = {
+    plugins: [
+        <span class="hljs-keyword">new</span> BasicPlugin(options)
+    ]
+}
+</code></pre>
+<h2 id="compiler-&#x548C;-compilation">Compiler &#x548C; Compilation</h2>
+<ul>
+<li>Compiler<br>Compiler &#x5BF9;&#x8C61;&#x5305;&#x542B;&#x4E86; Webpack &#x73AF;&#x5883;&#x6240;&#x6709;&#x7684;&#x7684;&#x914D;&#x7F6E;&#x4FE1;&#x606F;&#xFF0C;&#x5305;&#x542B; options&#xFF0C;loaders&#xFF0C;plugins &#x8FD9;&#x4E9B;&#x4FE1;&#x606F;&#xFF0C;&#x8FD9;&#x4E2A;&#x5BF9;&#x8C61;&#x5728; Webpack &#x542F;&#x52A8;&#x65F6;&#x5019;&#x88AB;&#x5B9E;&#x4F8B;&#x5316;&#xFF0C;&#x5B83;&#x662F;&#x5168;&#x5C40;&#x552F;&#x4E00;&#x7684;&#xFF0C;&#x53EF;&#x4EE5;&#x7B80;&#x5355;&#x5730;&#x628A;&#x5B83;&#x7406;&#x89E3;&#x4E3A; Webpack &#x5B9E;&#x4F8B;  </li>
+<li>Compilation<br>Compilation &#x5BF9;&#x8C61;&#x5305;&#x542B;&#x4E86;&#x5F53;&#x524D;&#x7684;&#x6A21;&#x5757;&#x8D44;&#x6E90;&#x3001;&#x7F16;&#x8BD1;&#x751F;&#x6210;&#x8D44;&#x6E90;&#x3001;&#x53D8;&#x5316;&#x7684;&#x6587;&#x4EF6;&#x7B49;&#x3002;&#x5F53; Webpack &#x4EE5;&#x5F00;&#x53D1;&#x6A21;&#x5F0F;&#x8FD0;&#x884C;&#x65F6;&#xFF0C;&#x6BCF;&#x5F53;&#x68C0;&#x6D4B;&#x5230;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x53D8;&#x5316;&#xFF0C;&#x4E00;&#x6B21;&#x65B0;&#x7684; Compilation &#x5C06;&#x88AB;&#x521B;&#x5EFA;&#x3002;Compilation &#x5BF9;&#x8C61;&#x4E5F;&#x63D0;&#x4F9B;&#x4E86;&#x5F88;&#x591A;&#x4E8B;&#x4EF6;&#x56DE;&#x8C03;&#x4F9B;&#x63D2;&#x4EF6;&#x505A;&#x6269;&#x5C55;&#x3002;&#x901A;&#x8FC7; Compilation &#x4E5F;&#x80FD;&#x8BFB;&#x53D6;&#x5230; Compiler &#x5BF9;&#x8C61;  </li>
+<li>&#x533A;&#x522B;<br>Compiler &#x4EE3;&#x8868;&#x4E86;&#x6574;&#x4E2A; Webpack &#x4ECE;&#x542F;&#x52A8;&#x5230;&#x5173;&#x95ED;&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#xFF0C;&#x800C; Compilation &#x53EA;&#x662F;&#x4EE3;&#x8868;&#x4E86;&#x4E00;&#x6B21;&#x65B0;&#x7684;&#x7F16;&#x8BD1;</li>
+</ul>
+<h2 id="&#x4E8B;&#x4EF6;&#x6D41;">&#x4E8B;&#x4EF6;&#x6D41;</h2>
+<h3 id="&#x5F00;&#x53D1;&#x63D2;&#x4EF6;&#x65F6;&#x6CE8;&#x610F;&#x4E8B;&#x9879;">&#x5F00;&#x53D1;&#x63D2;&#x4EF6;&#x65F6;&#x6CE8;&#x610F;&#x4E8B;&#x9879;</h3>
+<ul>
+<li>&#x53EA;&#x8981;&#x80FD;&#x62FF;&#x5230; Compiler &#x6216; Compilation &#x5BF9;&#x8C61;&#xFF0C;&#x5C31;&#x80FD;&#x5E7F;&#x64AD;&#x51FA;&#x65B0;&#x7684;&#x4E8B;&#x4EF6;&#xFF0C;&#x6240;&#x4EE5;&#x5728;&#x65B0;&#x5F00;&#x53D1;&#x7684;&#x63D2;&#x4EF6;&#x4E2D;&#x4E5F;&#x80FD;&#x5E7F;&#x64AD;&#x51FA;&#x4E8B;&#x4EF6;&#xFF0C;&#x7ED9;&#x5176;&#x5B83;&#x63D2;&#x4EF6;&#x76D1;&#x542C;&#x4F7F;&#x7528;</li>
+<li>&#x4F20;&#x7ED9;&#x6BCF;&#x4E2A;&#x63D2;&#x4EF6;&#x7684; Compiler &#x548C; Compilation &#x5BF9;&#x8C61;&#x90FD;&#x662F;&#x540C;&#x4E00;&#x4E2A;&#x5F15;&#x7528;&#x3002;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#x5728;&#x4E00;&#x4E2A;&#x63D2;&#x4EF6;&#x4E2D;&#x4FEE;&#x6539;&#x4E86; Compiler &#x6216; Compilation &#x5BF9;&#x8C61;&#x4E0A;&#x7684;&#x5C5E;&#x6027;&#xFF0C;&#x4F1A;&#x5F71;&#x54CD;&#x5230;&#x540E;&#x9762;&#x7684;&#x63D2;&#x4EF6;</li>
+<li>&#x6709;&#x4E9B;&#x4E8B;&#x4EF6;&#x662F;&#x5F02;&#x6B65;&#x7684;&#xFF0C;&#x8FD9;&#x4E9B;&#x5F02;&#x6B65;&#x7684;&#x4E8B;&#x4EF6;&#x4F1A;&#x9644;&#x5E26;&#x4E24;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;&#x4E3A;&#x56DE;&#x8C03;&#x51FD;&#x6570;&#xFF0C;&#x5728;&#x63D2;&#x4EF6;&#x5904;&#x7406;&#x5B8C;&#x4EFB;&#x52A1;&#x65F6;&#x9700;&#x8981;&#x8C03;&#x7528;&#x56DE;&#x8C03;&#x51FD;&#x6570;&#x901A;&#x77E5; Webpack&#xFF0C;&#x624D;&#x4F1A;&#x8FDB;&#x5165;&#x4E0B;&#x4E00;&#x5904;&#x7406;&#x6D41;&#x7A0B;(v3.8.1)</li>
+</ul>
+<h2 id="&#x5E38;&#x7528;-api">&#x5E38;&#x7528; API</h2>
+<h3 id="&#x8BFB;&#x53D6;&#x8F93;&#x51FA;&#x8D44;&#x6E90;&#x3001;&#x4EE3;&#x7801;&#x5757;&#x3001;&#x6A21;&#x5757;&#x53CA;&#x5176;&#x4F9D;&#x8D56;">&#x8BFB;&#x53D6;&#x8F93;&#x51FA;&#x8D44;&#x6E90;&#x3001;&#x4EE3;&#x7801;&#x5757;&#x3001;&#x6A21;&#x5757;&#x53CA;&#x5176;&#x4F9D;&#x8D56;</h3>
+<pre><code class="lang-js"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Plugin</span> </span>{
+    apply (compiler) {
+        compliler.hooks.emit(<span class="hljs-string">&apos;Plugin&apos;</span>, compilation =&gt; {
+            <span class="hljs-comment">// &#x5B58;&#x653E;&#x6240;&#x6709;&#x4EE3;&#x7801;&#x5757;&#xFF0C;&#x662F;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;</span>
+            compilation.chunks.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">chunk</span>) </span>{
+                <span class="hljs-comment">// chunk &#x4EE3;&#x8868;&#x4E00;&#x4E2A;&#x4EE3;&#x7801;&#x5757;</span>
+                <span class="hljs-comment">// &#x4EE3;&#x7801;&#x5757;&#x6709;&#x591A;&#x4E2A;&#x6A21;&#x5757;&#x7EC4;&#x6210;&#xFF0C;&#x901A;&#x8FC7; chunk.forEachModule &#x80FD;&#x8BFB;&#x53D6;&#x7EC4;&#x6210;&#x4EE3;&#x7801;&#x5757;&#x7684;&#x6BCF;&#x4E2A;&#x6A21;&#x5757;</span>
+                chunk.forEachModule(<span class="hljs-built_in">module</span> =&gt; {
+                    <span class="hljs-comment">// module &#x4EE3;&#x8868;&#x4E00;&#x4E2A;&#x6A21;&#x5757;</span>
+                    <span class="hljs-comment">// module.fileDependencies &#x5B58;&#x5728;&#x5F53;&#x524D;&#x6A21;&#x5757;&#x7684;&#x6240;&#x6709;&#x4F9D;&#x8D56;&#x7684;&#x6587;&#x4EF6;&#x8DEF;&#x5F84;&#xFF0C;&#x662F;&#x4E00;&#x4E2A;[]</span>
+                    <span class="hljs-built_in">module</span>.fileDependenciew.forEach(filepath =&gt; {
+
+                    })
+                })
+            })
+        })
+
+        <span class="hljs-comment">// Webpack &#x4F1A;&#x6839;&#x636E; Chunk &#x53BB;&#x751F;&#x6210;&#x8F93;&#x51FA;&#x7684;&#x6587;&#x4EF6;&#x8D44;&#x6E90;&#xFF0C;&#x6BCF;&#x4E2A; Chunk &#x90FD;&#x5BF9;&#x5E94;&#x4E00;&#x4E2A;&#x53CA;&#x5176;&#x4EE5;&#x4E0A;&#x7684;&#x8F93;&#x51FA;&#x6587;&#x4EF6;</span>
+        <span class="hljs-comment">// &#x4F8B;&#x5982;&#x5728; Chunk &#x4E2D;&#x5305;&#x542B;&#x4E86; CSS &#x6A21;&#x5757;&#x5E76;&#x4E14;&#x4F7F;&#x7528;&#x4E86; ExtractTextPlugin &#x65F6;&#xFF0C;</span>
+        <span class="hljs-comment">// &#x8BE5; Chunk &#x5C31;&#x4F1A;&#x751F;&#x6210; .js &#x548C; .css &#x4E24;&#x4E2A;&#x6587;&#x4EF6;</span>
+        chunk.files.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">filename</span>) </span>{
+          <span class="hljs-comment">// compilation.assets &#x5B58;&#x653E;&#x5F53;&#x524D;&#x6240;&#x6709;&#x5373;&#x5C06;&#x8F93;&#x51FA;&#x7684;&#x8D44;&#x6E90;</span>
+          <span class="hljs-comment">// &#x8C03;&#x7528;&#x4E00;&#x4E2A;&#x8F93;&#x51FA;&#x8D44;&#x6E90;&#x7684; source() &#x65B9;&#x6CD5;&#x80FD;&#x83B7;&#x53D6;&#x5230;&#x8F93;&#x51FA;&#x8D44;&#x6E90;&#x7684;&#x5185;&#x5BB9;</span>
+          <span class="hljs-keyword">let</span> source = compilation.assets[filename].source();
+        })
+    }
+}
+</code></pre>
+<ul>
+<li>chunk &#x5B57;&#x6BB5;</li>
+</ul>
+<pre><code class="lang-js">{
+  id: <span class="hljs-number">0</span>,
+  ids: [ <span class="hljs-number">0</span> ],
+  debugId: <span class="hljs-number">1003</span>,
+  name: <span class="hljs-string">&apos;app&apos;</span>,
+  preventIntegration: <span class="hljs-literal">false</span>,
+  entryModule: {
+    <span class="hljs-comment">// NormalModule</span>
+    {
+      dependencies: [],
+      blocks: [],
+      variables: [],
+      type: <span class="hljs-string">&apos;&apos;</span>,
+      ...
+    }
+  },
+  _modules: <span class="hljs-built_in">Set</span> {
+    <span class="hljs-comment">// CssModule</span>
+    {
+      dependencies: [],
+      blocks: [],
+      type: <span class="hljs-string">&apos;css/mini-extract&apos;</span>
+    },
+    <span class="hljs-comment">// NormalModule</span>
+    {
+      type: <span class="hljs-string">&apos;javascript/auto&apos;</span>
+    }
+    <span class="hljs-comment">// ConcatenatedModule</span>
+    {
+      type: <span class="hljs-string">&apos;javascript/esm&apos;</span>
+    }
+    ...
+  },
+  files: [],
+  rendered: <span class="hljs-literal">true</span>,
+  hash: <span class="hljs-string">&apos;hash 32&apos;</span>,
+  contentHash:
+}
+</code></pre>
+<ul>
+<li>module &#x5B57;&#x6BB5;</li>
+</ul>
+<pre><code class="lang-js">{
+  dependencies: [],
+  blocks: [],
+  variables: [],
+  type: <span class="hljs-string">&apos;&apos;</span>,
+  context: <span class="hljs-string">&apos;&apos;</span> | <span class="hljs-literal">null</span>,
+  debugId: <span class="hljs-number">1041</span>,
+  hash: <span class="hljs-string">&apos;hash 32&apos;</span>,
+  renderedHash: <span class="hljs-string">&apos;hash 20&apos;</span>,
+  resolveOptions: {} ,
+  factoryMeta: {},
+  warnings: [],
+  errors: [],
+  buildMeta: {},
+  buildInfo: {
+    strict: <span class="hljs-literal">true</span>,
+    cacheable: <span class="hljs-literal">true</span>,
+    moduleArgument: <span class="hljs-literal">undefined</span>,
+    exportsArgument: <span class="hljs-string">&apos;__webpack_exports__&apos;</span>,
+    fileDependencies: <span class="hljs-built_in">Set</span> {},
+    contextDependencies: <span class="hljs-built_in">Set</span> {},
+    assets: <span class="hljs-literal">undefined</span>,
+  },
+  reasons: [
+    {
+      <span class="hljs-comment">// ModuleReason</span>
+      <span class="hljs-built_in">module</span>: [NormalModule],
+      dependency: [],
+      explanation: <span class="hljs-literal">undefined</span>,
+      _chunks: <span class="hljs-literal">null</span>
+    }
+  ],
+  _chunks: <span class="hljs-built_in">Set</span> {
+    {
+      <span class="hljs-comment">// Chunk</span>
+       id: <span class="hljs-number">0</span>,
+       ids: [<span class="hljs-built_in">Array</span>],
+       debugId: <span class="hljs-number">1003</span>,
+       name: <span class="hljs-string">&apos;app&apos;</span>,
+       preventIntegration: <span class="hljs-literal">false</span>,
+       entryModule: [NormalModule],
+       _modules: [SortableSet],
+       filenameTemplate: <span class="hljs-literal">undefined</span>,
+       _groups: [SortableSet],
+       files: [<span class="hljs-built_in">Array</span>],
+       rendered: <span class="hljs-literal">true</span>,
+       hash: <span class="hljs-string">&apos;4be1571b7464f812b1b2e7cc00a6bc04&apos;</span>,
+       contentHash: [<span class="hljs-built_in">Object</span>],
+       renderedHash: <span class="hljs-string">&apos;4be1571b7464f812b1b2&apos;</span>,
+       chunkReason: <span class="hljs-literal">undefined</span>,
+       extraAsync: <span class="hljs-literal">false</span>,
+       removedModules: <span class="hljs-literal">undefined</span> },
+     _lastActiveSortFn: <span class="hljs-literal">null</span>,
+     _sortFn: [<span class="hljs-built_in">Function</span>: sortById],
+     _cache: <span class="hljs-literal">undefined</span>,
+     _cacheOrderIndependent: <span class="hljs-literal">undefined</span>
+     }
+  },
+  id: <span class="hljs-number">15</span>,
+  index: <span class="hljs-number">21</span>,
+  index2: <span class="hljs-number">28</span>,
+  depth: <span class="hljs-number">1</span>,
+  issuer: <span class="hljs-literal">null</span>,
+  profile: <span class="hljs-literal">undefined</span>,
+  prefetched: <span class="hljs-literal">false</span>,
+  built: <span class="hljs-literal">true</span>,
+  used: <span class="hljs-literal">true</span>,
+  usedExports: <span class="hljs-literal">true</span>,
+  optimizationBailout: [],
+  _rewriteChunkInReasons: <span class="hljs-literal">undefined</span>,
+  useSourceMap: <span class="hljs-literal">false</span>,
+  _source: <span class="hljs-literal">null</span>,
+  rootModule: {
+    <span class="hljs-comment">// NormalModule</span>
+    {
+      dependencies: [],
+      ...
+    }
+  }
+
+}
+</code></pre>
+<h3 id="&#x76D1;&#x542C;&#x6587;&#x4EF6;&#x53D8;&#x5316;">&#x76D1;&#x542C;&#x6587;&#x4EF6;&#x53D8;&#x5316;</h3>
+<pre><code class="lang-js"><span class="hljs-comment">// // &#x5F53;&#x4F9D;&#x8D56;&#x7684;&#x6587;&#x4EF6;&#x53D1;&#x751F;&#x53D8;&#x5316;&#x65F6;&#x4F1A;&#x89E6;&#x53D1; watch-run &#x4E8B;&#x4EF6;</span>
+compiler.hooks.watchRun.tap(<span class="hljs-string">&apos;Plugin&apos;</span>, watching =&gt; {
+     <span class="hljs-comment">// &#x83B7;&#x53D6;&#x53D1;&#x751F;&#x53D8;&#x5316;&#x7684;&#x6587;&#x4EF6;&#x5217;&#x8868;</span>
+    <span class="hljs-keyword">const</span> changedFiles = watching.compiler.watchFileSystem.watcher.mtimes
+    <span class="hljs-comment">// changedFiles &#x683C;&#x5F0F;&#x4E3A;&#x952E;&#x503C;&#x5BF9;&#xFF0C;&#x952E;&#x4E3A;&#x53D1;&#x751F;&#x53D8;&#x5316;&#x7684;&#x6587;&#x4EF6;&#x8DEF;&#x5F84;&#x3002;</span>
+    <span class="hljs-keyword">if</span> (changedFiles[filePath] !== <span class="hljs-literal">undefined</span>) {
+      <span class="hljs-comment">// filePath &#x5BF9;&#x5E94;&#x7684;&#x6587;&#x4EF6;&#x53D1;&#x751F;&#x4E86;&#x53D8;&#x5316;</span>
+    }
+})
+</code></pre>
+<pre><code class="lang-js">compiler.hooks.afterCompile.tap(<span class="hljs-string">&apos;Plugin&apos;</span>, (compilation) =&gt; {
+  <span class="hljs-comment">// &#x628A; HTML &#x6587;&#x4EF6;&#x6DFB;&#x52A0;&#x5230;&#x6587;&#x4EF6;&#x4F9D;&#x8D56;&#x5217;&#x8868;&#xFF0C;&#x597D;&#x8BA9; Webpack &#x53BB;&#x76D1;&#x542C; HTML &#x6A21;&#x5757;&#x6587;&#x4EF6;&#xFF0C;&#x5728; HTML &#x6A21;&#x7248;&#x6587;&#x4EF6;&#x53D1;&#x751F;&#x53D8;&#x5316;&#x65F6;&#x91CD;&#x65B0;&#x542F;&#x52A8;&#x4E00;&#x6B21;&#x7F16;&#x8BD1;</span>
+  compilation.fileDependencies.push(filePath)
+})
+</code></pre>
+<h3 id="&#x4FEE;&#x6539;&#x8F93;&#x51FA;&#x8D44;&#x6E90;">&#x4FEE;&#x6539;&#x8F93;&#x51FA;&#x8D44;&#x6E90;</h3>
+<pre><code class="lang-js">compiler.hooks.emit.tap(<span class="hljs-string">&apos;Plugin&apos;</span>, (compilation) =&gt; {
+  <span class="hljs-comment">// &#x8BBE;&#x7F6E;&#x540D;&#x79F0;&#x4E3A; fileName &#x7684;&#x8F93;&#x51FA;&#x8D44;&#x6E90;</span>
+  compilation.assets[fileName] = {
+    <span class="hljs-comment">// &#x8FD4;&#x56DE;&#x6587;&#x4EF6;&#x5185;&#x5BB9;</span>
+    source: () =&gt; {
+      <span class="hljs-comment">// fileContent &#x65E2;&#x53EF;&#x4EE5;&#x662F;&#x4EE3;&#x8868;&#x6587;&#x672C;&#x6587;&#x4EF6;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x662F;&#x4EE3;&#x8868;&#x4E8C;&#x8FDB;&#x5236;&#x6587;&#x4EF6;&#x7684; Buffer</span>
+      <span class="hljs-keyword">return</span> fileContent;
+      },
+    <span class="hljs-comment">// &#x8FD4;&#x56DE;&#x6587;&#x4EF6;&#x5927;&#x5C0F;</span>
+      size: () =&gt; {
+      <span class="hljs-keyword">return</span> Buffer.byteLength(fileContent, <span class="hljs-string">&apos;utf8&apos;</span>);
+    }
+  }
+
+  <span class="hljs-comment">// &#x8BFB;&#x53D6; compilation.assets</span>
+  <span class="hljs-comment">// &#x8BFB;&#x53D6;&#x540D;&#x79F0;&#x4E3A; fileName &#x7684;&#x8F93;&#x51FA;&#x8D44;&#x6E90;</span>
+  <span class="hljs-keyword">const</span> asset = compilation.assets[fileName]
+  <span class="hljs-comment">// &#x83B7;&#x53D6;&#x8F93;&#x51FA;&#x8D44;&#x6E90;&#x7684;&#x5185;&#x5BB9;</span>
+  asset.source()
+  <span class="hljs-comment">// &#x83B7;&#x53D6;&#x8F93;&#x51FA;&#x8D44;&#x6E90;&#x7684;&#x6587;&#x4EF6;&#x5927;&#x5C0F;</span>
+  asset.size()
+})
+</code></pre>
+<h3 id="&#x5224;&#x65AD;-webpack-&#x4F7F;&#x7528;&#x4E86;&#x54EA;&#x4E9B;&#x63D2;&#x4EF6;">&#x5224;&#x65AD; Webpack &#x4F7F;&#x7528;&#x4E86;&#x54EA;&#x4E9B;&#x63D2;&#x4EF6;</h3>
+<pre><code class="lang-js"><span class="hljs-comment">// &#x5224;&#x65AD;&#x5F53;&#x524D;&#x914D;&#x7F6E;&#x4F7F;&#x7528;&#x4F7F;&#x7528;&#x4E86; ExtractTextPlugin&#xFF0C;</span>
+<span class="hljs-comment">// compiler &#x53C2;&#x6570;&#x5373;&#x4E3A; Webpack &#x5728; apply(compiler) &#x4E2D;&#x4F20;&#x5165;&#x7684;&#x53C2;&#x6570;</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">hasExtractTextPlugin</span>(<span class="hljs-params">compiler</span>) </span>{
+  <span class="hljs-comment">// &#x5F53;&#x524D;&#x914D;&#x7F6E;&#x6240;&#x6709;&#x4F7F;&#x7528;&#x7684;&#x63D2;&#x4EF6;&#x5217;&#x8868;</span>
+  <span class="hljs-keyword">const</span> plugins = compiler.options.plugins;
+  <span class="hljs-comment">// &#x53BB; plugins &#x4E2D;&#x5BFB;&#x627E;&#x6709;&#x6CA1;&#x6709; ExtractTextPlugin &#x7684;&#x5B9E;&#x4F8B;</span>
+  <span class="hljs-keyword">return</span> plugins.find(plugin=&gt;plugin.__proto__.constructor === ExtractTextPlugin) != <span class="hljs-literal">null</span>;
+}
+</code></pre>
+<footer class="page-footer"><span class="copyright">powered by Gitbook</span><span class="footer-modification">&#x6587;&#x4EF6;&#x4FEE;&#x6539;&#x4E8E;&#xFF1A;
+2019-09-20 10:51:48
+</span></footer>
+						
+					</section>
+					
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+				</div>
+			</div>
+			
+		</div>
+
+		
+		
+		<a href="node-webpack.html" class="navigation navigation-prev " aria-label="Previous page: Webpack">
+			<i class="fa fa-angle-left"></i>
+		</a>
+		
+		
+		<a href="node-isomorphism-render.html" class="navigation navigation-next " aria-label="Next page: 同构渲染">
+			<i class="fa fa-angle-right"></i>
+		</a>
+		
+		
+		
+	</div>
+	<script>
+		var gitbook = gitbook || [];
+		gitbook.push(function() {
+			gitbook.page.hasChanged({"page":{"title":"编写插件","level":"1.5.9.1","depth":3,"next":{"title":"同构渲染","level":"1.5.10","depth":2,"path":"src/node-isomorphism-render.md","ref":"src/node-isomorphism-render.md","articles":[]},"previous":{"title":"Webpack","level":"1.5.9","depth":2,"path":"src/node-webpack.md","ref":"src/node-webpack.md","articles":[{"title":"编写插件","level":"1.5.9.1","depth":3,"path":"src/node-webpack-plugin.md","ref":"src/node-webpack-plugin.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["theme-fexa","search-pro","-disqus","advanced-emoji","github","katex","splitter","-sharing","tbfed-pagefooter","toggle-chapters","-sectionx","-baidu"],"root":"./","styles":{"website":"static/styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"","modify_label":"文件修改于：","modify_format":"YYYY-MM-DD HH:mm:ss"},"disqus":{"shortName":"ricann"},"github":{"url":"https://github.com/raozhanping"},"splitter":{},"search-pro":{},"search":{},"theme-fexa":{"logo":"./static/logo.png"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"fontSettings":{},"highlight":{},"advanced-emoji":{"embedEmojis":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","author":"raozhanping","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"","links":{"sharing":{"all":null,"facebook":null,"google":null,"twitter":null,"weibo":null}},"gitbook":"*","description":"This is a note book created by gitbook","extension":null},"file":{"path":"src/node-webpack-plugin.md","mtime":"2019-09-20T02:51:48.879Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-03T02:50:00.672Z"},"basePath":"..","book":{"language":""}});
+		});
+	</script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-theme-fexa/fexa.js"></script>
+        
+    
+
+    </body>
+</html>
+
