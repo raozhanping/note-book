@@ -51,11 +51,8 @@
 
 - set
 
-```js
-  {% set standardModal %}
-    {% include 'standardModalData.html' %}
-  {% endset %}
-```
+![nunjucks macro](../static/images/nunjucks-template-set.jpg)
+
 - extends  
   extends 用来指定模板继承，被指定的模板为父级模板
 - block  
@@ -64,9 +61,7 @@
   include 可以引入其他的模板，可以再多模板之间共享一些小模板，如果某个模板已使用了继承那么 include 将会非常有用。  
   在某些情况下，我们可能希望在模板文件不存在时不要抛弃异常。对于这些情况，我们可以使用 ignore missing 来略过这些异常：
 
-```js
-{% include 'missing.html' ignore missing %}
-```
+![nunjucks macro](../static/images/nunjucks-template-include.jpg)
 
 - import  
  import 可加载不同的模板，可是你操作模板输出的数据，模板将会输出宏和在顶级作用域进行的赋值。  
