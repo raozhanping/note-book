@@ -47,12 +47,12 @@
 - macro  
 宏（macro） 可以定义可复用的内容，类似于编程语言中的函数.
 
-```html
-  {% macro field(name, value='', type='test') %}
+```js
+  // {% macro field(name, value='', type='test') %}
     <div class="field">
       <input type="{{ type }}" name="{{ name }}" value="{{ value | escape }}"/>
     </div>
-  {% endmacro %}
+  // {% endmacro %}
 ```
 - set
 
