@@ -7,12 +7,9 @@
   "author": "raozhanping",
   "license": "MIT",
   "scripts": {
-    "init": "gitbook init",
-    "install": "gitbook install",
-    "start": "gitbook serve --port=4001 --lrport=4002",
+    "start": "gitbook serve . ./docs --port=4001 --lrport=4002",
     "serve": "serve -s ./docs",
-    "build": "gitbook build . ./docs",
-    "gitbook": "gitbook"
+    "build": "gitbook build . ./docs"
   },
   "dependencies": {
     "gitbook-cli": "^2.3.2",
