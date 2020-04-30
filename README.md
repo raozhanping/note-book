@@ -2,14 +2,24 @@
 
 ## TODO
 
-1. [按位操作](./docs/js-bitwise-operation.md)
-2. [代理(Proxy)和反射(Reflection)](./docs/js-es6-proxy.md)
-3. [Ubuntu开发环境安装](docs/tool-ubuntu-env.md)
-4. [Jest](docs/ops-jest.md)
+1. [按位操作
+2. [Jest](docs/ops-jest.md)
+3. [benchmark](src/ops-benchmark.md)
+4. graphql
+
+---
 
 ## DOCS
 
 - [semantic-release](https://semantic-release.gitbook.io/semantic-release/)
+
+---
+
+## ES Modules
+> ES Modules 是用来处理模块的 ECMAScript 标准
+当Node.js多年来一直使用 CommonJS 标准时，但浏览器从未拥有模块系统，因为每个主要决策（例如模块系统）都必须先由ECMAScript标准化，然后由浏览器实现
+
+---
 
 ## git commit format
 
@@ -32,6 +42,8 @@
 - test：增加测试
 - chore：构建过程或辅助工具的变动
 - revert: feat(pencil): add 'graphiteWidth' option (撤销之前的commit)
+
+---
 
 ## getBoundingClientRect
 
